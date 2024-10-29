@@ -1,0 +1,25 @@
+name: netzero-metrics
+# channels priority
+# see https://bioconda.github.io/
+# conda-forge has highest prioriy
+# ---------------------------------
+# dev env currently contains
+# requirements for both UI and API
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.8,<3.12.0a0
+  - pandas
+  - altair
+  - vl-convert-python
+  - duckdb
+  - pip>=24.2
+  - pip:
+      - ipyautoui==0.7.20
+      - stringcase
+      - ../digital-schedules/packages/aectemplater-ui
+      - ../digital-schedules/packages/aectemplater-schemas
+      - ../digital-schedules/packages/aectemplater-client
+      - ../digital-schedules/packages/aecschedule
+      - ../digital-schedules/packages/pyrulefilter
+      - git+https://git@github.com/maxfordham/pyuniclass.git@0.1.4
