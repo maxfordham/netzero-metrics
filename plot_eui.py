@@ -23,7 +23,7 @@ def plot_eui(fpth=PTH_EUI, save_png=True):
         x= alt.Y("benchmark-target", title="Benchmark Target (KWHr / m2(GIA) / yr)"),
         color=alt.Color("year").scale(scheme="redblue")
     ).properties(height=700, 
-                 title=alt.Title("Energy Use Intensity (EUI) Benchmarks",
+                 title=alt.Title("Energy Use Intensity (EUI) Targets",
                     subtitle=[
                         "EUI Benchmark in KWHr / m2(GIA) / yr (x-axis)",
                         "for new-build and retrofit-in-one-go buildings categorised by building type (y-axis)",
@@ -40,8 +40,8 @@ def plot_eui(fpth=PTH_EUI, save_png=True):
     
 
     if save_png:
-        chart.save('eui-benchmarks.png', ppi=200)
-        chart.save('eui-benchmarks.json')
+        chart.save('eui-targets.png', ppi=200)
+        chart.save('eui-targets.json')
     return chart
 
 if __name__ == "__main__":
