@@ -1,6 +1,0 @@
-# pixi environments
-.pixi
-*.egg-info
-anywidget-test/*
-aw-test/*
-docs/20241025-meeting/.quarto/*
