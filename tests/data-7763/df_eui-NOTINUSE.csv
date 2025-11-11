@@ -1,0 +1,1225 @@
+,Year,BuildingType,Target,BuildingTypeShorthand,Unit,ConstructionMethod
+0,2025,Commercial Resi - Student Residential,75.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+1,2026,Commercial Resi - Student Residential,74.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+2,2027,Commercial Resi - Student Residential,72.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+3,2028,Commercial Resi - Student Residential,70.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+4,2029,Commercial Resi - Student Residential,69.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+5,2030,Commercial Resi - Student Residential,67.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+6,2031,Commercial Resi - Student Residential,65.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+7,2032,Commercial Resi - Student Residential,64.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+8,2033,Commercial Resi - Student Residential,62.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+9,2034,Commercial Resi - Student Residential,60.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+10,2035,Commercial Resi - Student Residential,59.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+11,2036,Commercial Resi - Student Residential,57.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+12,2037,Commercial Resi - Student Residential,55.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+13,2038,Commercial Resi - Student Residential,54.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+14,2039,Commercial Resi - Student Residential,52.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+15,2040,Commercial Resi - Student Residential,50.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+16,2050,Commercial Resi - Student Residential,50.0,Stud. Resi.,kWh/m²GIA/yr,newbuild
+17,2025,Commercial Resi - Care Home,150.0,Care Home,kWh/m²GIA/yr,newbuild
+18,2026,Commercial Resi - Care Home,147.0,Care Home,kWh/m²GIA/yr,newbuild
+19,2027,Commercial Resi - Care Home,144.0,Care Home,kWh/m²GIA/yr,newbuild
+20,2028,Commercial Resi - Care Home,140.0,Care Home,kWh/m²GIA/yr,newbuild
+21,2029,Commercial Resi - Care Home,137.0,Care Home,kWh/m²GIA/yr,newbuild
+22,2030,Commercial Resi - Care Home,134.0,Care Home,kWh/m²GIA/yr,newbuild
+23,2031,Commercial Resi - Care Home,130.0,Care Home,kWh/m²GIA/yr,newbuild
+24,2032,Commercial Resi - Care Home,127.0,Care Home,kWh/m²GIA/yr,newbuild
+25,2033,Commercial Resi - Care Home,124.0,Care Home,kWh/m²GIA/yr,newbuild
+26,2034,Commercial Resi - Care Home,120.0,Care Home,kWh/m²GIA/yr,newbuild
+27,2035,Commercial Resi - Care Home,117.0,Care Home,kWh/m²GIA/yr,newbuild
+28,2036,Commercial Resi - Care Home,114.0,Care Home,kWh/m²GIA/yr,newbuild
+29,2037,Commercial Resi - Care Home,110.0,Care Home,kWh/m²GIA/yr,newbuild
+30,2038,Commercial Resi - Care Home,107.0,Care Home,kWh/m²GIA/yr,newbuild
+31,2039,Commercial Resi - Care Home,104.0,Care Home,kWh/m²GIA/yr,newbuild
+32,2040,Commercial Resi - Care Home,100.0,Care Home,kWh/m²GIA/yr,newbuild
+33,2050,Commercial Resi - Care Home,100.0,Care Home,kWh/m²GIA/yr,newbuild
+34,2025,Culture & Enterainment - Performance,80.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+35,2026,Culture & Enterainment - Performance,79.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+36,2027,Culture & Enterainment - Performance,77.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+37,2028,Culture & Enterainment - Performance,75.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+38,2029,Culture & Enterainment - Performance,74.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+39,2030,Culture & Enterainment - Performance,72.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+40,2031,Culture & Enterainment - Performance,70.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+41,2032,Culture & Enterainment - Performance,69.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+42,2033,Culture & Enterainment - Performance,67.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+43,2034,Culture & Enterainment - Performance,65.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+44,2035,Culture & Enterainment - Performance,64.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+45,2036,Culture & Enterainment - Performance,62.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+46,2037,Culture & Enterainment - Performance,60.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+47,2038,Culture & Enterainment - Performance,59.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+48,2039,Culture & Enterainment - Performance,57.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+49,2040,Culture & Enterainment - Performance,55.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+50,2050,Culture & Enterainment - Performance,55.0,C&E Perfor.,kWh/m²GIA/yr,newbuild
+51,2025,Culture & Enterainment - Collection (e.g. museum),60.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+52,2026,Culture & Enterainment - Collection (e.g. museum),59.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+53,2027,Culture & Enterainment - Collection (e.g. museum),58.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+54,2028,Culture & Enterainment - Collection (e.g. museum),56.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+55,2029,Culture & Enterainment - Collection (e.g. museum),55.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+56,2030,Culture & Enterainment - Collection (e.g. museum),54.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+57,2031,Culture & Enterainment - Collection (e.g. museum),52.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+58,2032,Culture & Enterainment - Collection (e.g. museum),51.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+59,2033,Culture & Enterainment - Collection (e.g. museum),50.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+60,2034,Culture & Enterainment - Collection (e.g. museum),48.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+61,2035,Culture & Enterainment - Collection (e.g. museum),47.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+62,2036,Culture & Enterainment - Collection (e.g. museum),46.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+63,2037,Culture & Enterainment - Collection (e.g. museum),44.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+64,2038,Culture & Enterainment - Collection (e.g. museum),43.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+65,2039,Culture & Enterainment - Collection (e.g. museum),42.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+66,2040,Culture & Enterainment - Collection (e.g. museum),40.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+67,2050,Culture & Enterainment - Collection (e.g. museum),40.0,C&E Collec.,kWh/m²GIA/yr,newbuild
+68,2025,Culture & Enterainment - Archive,5.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+69,2026,Culture & Enterainment - Archive,5.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+70,2027,Culture & Enterainment - Archive,5.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+71,2028,Culture & Enterainment - Archive,5.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+72,2029,Culture & Enterainment - Archive,5.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+73,2030,Culture & Enterainment - Archive,5.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+74,2031,Culture & Enterainment - Archive,5.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+75,2032,Culture & Enterainment - Archive,5.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+76,2033,Culture & Enterainment - Archive,5.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+77,2034,Culture & Enterainment - Archive,5.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+78,2035,Culture & Enterainment - Archive,5.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+79,2036,Culture & Enterainment - Archive,5.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+80,2037,Culture & Enterainment - Archive,5.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+81,2038,Culture & Enterainment - Archive,5.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+82,2039,Culture & Enterainment - Archive,5.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+83,2040,Culture & Enterainment - Archive,4.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+84,2050,Culture & Enterainment - Archive,4.0,C&E Arch.,kWh/m²GIA/yr,newbuild
+85,2025,Data Centre - Low utilisation (d),1.4,Data Centre,PUE,newbuild
+86,2026,Data Centre - Low utilisation (d),1.4,Data Centre,PUE,newbuild
+87,2027,Data Centre - Low utilisation (d),1.39,Data Centre,PUE,newbuild
+88,2028,Data Centre - Low utilisation (d),1.38,Data Centre,PUE,newbuild
+89,2029,Data Centre - Low utilisation (d),1.38,Data Centre,PUE,newbuild
+90,2030,Data Centre - Low utilisation (d),1.37,Data Centre,PUE,newbuild
+91,2031,Data Centre - Low utilisation (d),1.36,Data Centre,PUE,newbuild
+92,2032,Data Centre - Low utilisation (d),1.36,Data Centre,PUE,newbuild
+93,2033,Data Centre - Low utilisation (d),1.35,Data Centre,PUE,newbuild
+94,2034,Data Centre - Low utilisation (d),1.34,Data Centre,PUE,newbuild
+95,2035,Data Centre - Low utilisation (d),1.34,Data Centre,PUE,newbuild
+96,2036,Data Centre - Low utilisation (d),1.33,Data Centre,PUE,newbuild
+97,2037,Data Centre - Low utilisation (d),1.32,Data Centre,PUE,newbuild
+98,2038,Data Centre - Low utilisation (d),1.32,Data Centre,PUE,newbuild
+99,2039,Data Centre - Low utilisation (d),1.31,Data Centre,PUE,newbuild
+100,2040,Data Centre - Low utilisation (d),1.3,Data Centre,PUE,newbuild
+101,2050,Data Centre - Low utilisation (d),1.3,Data Centre,PUE,newbuild
+102,2025,Data Centre - High utilisation (d),1.2,Data Centre.1,PUE,newbuild
+103,2026,Data Centre - High utilisation (d),1.2,Data Centre.1,PUE,newbuild
+104,2027,Data Centre - High utilisation (d),1.19,Data Centre.1,PUE,newbuild
+105,2028,Data Centre - High utilisation (d),1.18,Data Centre.1,PUE,newbuild
+106,2029,Data Centre - High utilisation (d),1.18,Data Centre.1,PUE,newbuild
+107,2030,Data Centre - High utilisation (d),1.17,Data Centre.1,PUE,newbuild
+108,2031,Data Centre - High utilisation (d),1.16,Data Centre.1,PUE,newbuild
+109,2032,Data Centre - High utilisation (d),1.16,Data Centre.1,PUE,newbuild
+110,2033,Data Centre - High utilisation (d),1.15,Data Centre.1,PUE,newbuild
+111,2034,Data Centre - High utilisation (d),1.14,Data Centre.1,PUE,newbuild
+112,2035,Data Centre - High utilisation (d),1.14,Data Centre.1,PUE,newbuild
+113,2036,Data Centre - High utilisation (d),1.13,Data Centre.1,PUE,newbuild
+114,2037,Data Centre - High utilisation (d),1.12,Data Centre.1,PUE,newbuild
+115,2038,Data Centre - High utilisation (d),1.12,Data Centre.1,PUE,newbuild
+116,2039,Data Centre - High utilisation (d),1.11,Data Centre.1,PUE,newbuild
+117,2040,Data Centre - High utilisation (d),1.1,Data Centre.1,PUE,newbuild
+118,2050,Data Centre - High utilisation (d),1.1,Data Centre.1,PUE,newbuild
+119,2025,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+120,2026,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+121,2027,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+122,2028,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+123,2029,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+124,2030,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+125,2031,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+126,2032,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+127,2033,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+128,2034,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+129,2035,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+130,2036,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+131,2037,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+132,2038,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+133,2039,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+134,2040,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+135,2050,Healthcare,,Health.,kWh/m²GIA/yr,newbuild
+136,2025,Higher Education,100.0,High. Ed.,kWh/m²GIA/yr,newbuild
+137,2026,Higher Education,98.0,High. Ed.,kWh/m²GIA/yr,newbuild
+138,2027,Higher Education,95.0,High. Ed.,kWh/m²GIA/yr,newbuild
+139,2028,Higher Education,92.0,High. Ed.,kWh/m²GIA/yr,newbuild
+140,2029,Higher Education,90.0,High. Ed.,kWh/m²GIA/yr,newbuild
+141,2030,Higher Education,87.0,High. Ed.,kWh/m²GIA/yr,newbuild
+142,2031,Higher Education,84.0,High. Ed.,kWh/m²GIA/yr,newbuild
+143,2032,Higher Education,82.0,High. Ed.,kWh/m²GIA/yr,newbuild
+144,2033,Higher Education,79.0,High. Ed.,kWh/m²GIA/yr,newbuild
+145,2034,Higher Education,76.0,High. Ed.,kWh/m²GIA/yr,newbuild
+146,2035,Higher Education,74.0,High. Ed.,kWh/m²GIA/yr,newbuild
+147,2036,Higher Education,71.0,High. Ed.,kWh/m²GIA/yr,newbuild
+148,2037,Higher Education,68.0,High. Ed.,kWh/m²GIA/yr,newbuild
+149,2038,Higher Education,66.0,High. Ed.,kWh/m²GIA/yr,newbuild
+150,2039,Higher Education,63.0,High. Ed.,kWh/m²GIA/yr,newbuild
+151,2040,Higher Education,60.0,High. Ed.,kWh/m²GIA/yr,newbuild
+152,2050,Higher Education,60.0,High. Ed.,kWh/m²GIA/yr,newbuild
+153,2025,Homes - Single family homes,45.0,Home S.F.,kWh/m²GIA/yr,newbuild
+154,2026,Homes - Single family homes,45.0,Home S.F.,kWh/m²GIA/yr,newbuild
+155,2027,Homes - Single family homes,44.0,Home S.F.,kWh/m²GIA/yr,newbuild
+156,2028,Homes - Single family homes,43.0,Home S.F.,kWh/m²GIA/yr,newbuild
+157,2029,Homes - Single family homes,43.0,Home S.F.,kWh/m²GIA/yr,newbuild
+158,2030,Homes - Single family homes,42.0,Home S.F.,kWh/m²GIA/yr,newbuild
+159,2031,Homes - Single family homes,41.0,Home S.F.,kWh/m²GIA/yr,newbuild
+160,2032,Homes - Single family homes,41.0,Home S.F.,kWh/m²GIA/yr,newbuild
+161,2033,Homes - Single family homes,40.0,Home S.F.,kWh/m²GIA/yr,newbuild
+162,2034,Homes - Single family homes,39.0,Home S.F.,kWh/m²GIA/yr,newbuild
+163,2035,Homes - Single family homes,39.0,Home S.F.,kWh/m²GIA/yr,newbuild
+164,2036,Homes - Single family homes,38.0,Home S.F.,kWh/m²GIA/yr,newbuild
+165,2037,Homes - Single family homes,37.0,Home S.F.,kWh/m²GIA/yr,newbuild
+166,2038,Homes - Single family homes,37.0,Home S.F.,kWh/m²GIA/yr,newbuild
+167,2039,Homes - Single family homes,36.0,Home S.F.,kWh/m²GIA/yr,newbuild
+168,2040,Homes - Single family homes,35.0,Home S.F.,kWh/m²GIA/yr,newbuild
+169,2050,Homes - Single family homes,35.0,Home S.F.,kWh/m²GIA/yr,newbuild
+170,2025,Homes - Flats,40.0,Home Flat.,kWh/m²GIA/yr,newbuild
+171,2026,Homes - Flats,40.0,Home Flat.,kWh/m²GIA/yr,newbuild
+172,2027,Homes - Flats,40.0,Home Flat.,kWh/m²GIA/yr,newbuild
+173,2028,Homes - Flats,39.0,Home Flat.,kWh/m²GIA/yr,newbuild
+174,2029,Homes - Flats,39.0,Home Flat.,kWh/m²GIA/yr,newbuild
+175,2030,Homes - Flats,39.0,Home Flat.,kWh/m²GIA/yr,newbuild
+176,2031,Homes - Flats,38.0,Home Flat.,kWh/m²GIA/yr,newbuild
+177,2032,Homes - Flats,38.0,Home Flat.,kWh/m²GIA/yr,newbuild
+178,2033,Homes - Flats,38.0,Home Flat.,kWh/m²GIA/yr,newbuild
+179,2034,Homes - Flats,37.0,Home Flat.,kWh/m²GIA/yr,newbuild
+180,2035,Homes - Flats,37.0,Home Flat.,kWh/m²GIA/yr,newbuild
+181,2036,Homes - Flats,37.0,Home Flat.,kWh/m²GIA/yr,newbuild
+182,2037,Homes - Flats,36.0,Home Flat.,kWh/m²GIA/yr,newbuild
+183,2038,Homes - Flats,36.0,Home Flat.,kWh/m²GIA/yr,newbuild
+184,2039,Homes - Flats,36.0,Home Flat.,kWh/m²GIA/yr,newbuild
+185,2040,Homes - Flats,35.0,Home Flat.,kWh/m²GIA/yr,newbuild
+186,2050,Homes - Flats,35.0,Home Flat.,kWh/m²GIA/yr,newbuild
+187,2025,Hotel,125.0,Hotel,kWh/m²GIA/yr,newbuild
+188,2026,Hotel,122.0,Hotel,kWh/m²GIA/yr,newbuild
+189,2027,Hotel,119.0,Hotel,kWh/m²GIA/yr,newbuild
+190,2028,Hotel,116.0,Hotel,kWh/m²GIA/yr,newbuild
+191,2029,Hotel,113.0,Hotel,kWh/m²GIA/yr,newbuild
+192,2030,Hotel,110.0,Hotel,kWh/m²GIA/yr,newbuild
+193,2031,Hotel,107.0,Hotel,kWh/m²GIA/yr,newbuild
+194,2032,Hotel,104.0,Hotel,kWh/m²GIA/yr,newbuild
+195,2033,Hotel,101.0,Hotel,kWh/m²GIA/yr,newbuild
+196,2034,Hotel,98.0,Hotel,kWh/m²GIA/yr,newbuild
+197,2035,Hotel,95.0,Hotel,kWh/m²GIA/yr,newbuild
+198,2036,Hotel,92.0,Hotel,kWh/m²GIA/yr,newbuild
+199,2037,Hotel,89.0,Hotel,kWh/m²GIA/yr,newbuild
+200,2038,Hotel,86.0,Hotel,kWh/m²GIA/yr,newbuild
+201,2039,Hotel,83.0,Hotel,kWh/m²GIA/yr,newbuild
+202,2040,Hotel,80.0,Hotel,kWh/m²GIA/yr,newbuild
+203,2050,Hotel,80.0,Hotel,kWh/m²GIA/yr,newbuild
+204,2025,Office - General,85.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+205,2026,Office - General,83.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+206,2027,Office - General,80.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+207,2028,Office - General,77.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+208,2029,Office - General,75.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+209,2030,Office - General,72.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+210,2031,Office - General,69.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+211,2032,Office - General,67.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+212,2033,Office - General,64.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+213,2034,Office - General,61.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+214,2035,Office - General,59.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+215,2036,Office - General,56.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+216,2037,Office - General,53.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+217,2038,Office - General,51.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+218,2039,Office - General,48.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+219,2040,Office - General,45.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+220,2050,Office - General,45.0,Off. Gen. (GIA),kWh/m²GIA/yr,newbuild
+221,2025,Office - General,107.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+222,2026,Office - General,104.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+223,2027,Office - General,100.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+224,2028,Office - General,97.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+225,2029,Office - General,94.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+226,2030,Office - General,90.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+227,2031,Office - General,87.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+228,2032,Office - General,84.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+229,2033,Office - General,80.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+230,2034,Office - General,77.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+231,2035,Office - General,74.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+232,2036,Office - General,70.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+233,2037,Office - General,67.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+234,2038,Office - General,64.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+235,2039,Office - General,60.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+236,2040,Office - General,57.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+237,2050,Office - General,57.0,Off. Gen. (NIA),kWh/m²NIA/yr,newbuild
+238,2025,Office - Call Centre,127.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+239,2026,Office - Call Centre,123.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+240,2027,Office - Call Centre,119.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+241,2028,Office - Call Centre,115.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+242,2029,Office - Call Centre,111.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+243,2030,Office - Call Centre,106.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+244,2031,Office - Call Centre,102.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+245,2032,Office - Call Centre,98.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+246,2033,Office - Call Centre,94.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+247,2034,Office - Call Centre,90.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+248,2035,Office - Call Centre,85.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+249,2036,Office - Call Centre,81.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+250,2037,Office - Call Centre,77.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+251,2038,Office - Call Centre,73.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+252,2039,Office - Call Centre,69.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+253,2040,Office - Call Centre,64.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+254,2050,Office - Call Centre,64.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,newbuild
+255,2025,Office - Call Centre,159.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+256,2026,Office - Call Centre,154.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+257,2027,Office - Call Centre,149.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+258,2028,Office - Call Centre,144.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+259,2029,Office - Call Centre,139.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+260,2030,Office - Call Centre,133.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+261,2031,Office - Call Centre,128.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+262,2032,Office - Call Centre,123.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+263,2033,Office - Call Centre,118.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+264,2034,Office - Call Centre,113.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+265,2035,Office - Call Centre,107.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+266,2036,Office - Call Centre,102.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+267,2037,Office - Call Centre,97.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+268,2038,Office - Call Centre,92.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+269,2039,Office - Call Centre,87.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+270,2040,Office - Call Centre,80.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+271,2050,Office - Call Centre,80.0,Call Cen. (NIA),kWh/m²NIA/yr,newbuild
+272,2025,Office - Trading Floors,147.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+273,2026,Office - Trading Floors,143.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+274,2027,Office - Trading Floors,138.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+275,2028,Office - Trading Floors,133.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+276,2029,Office - Trading Floors,128.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+277,2030,Office - Trading Floors,123.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+278,2031,Office - Trading Floors,118.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+279,2032,Office - Trading Floors,113.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+280,2033,Office - Trading Floors,109.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+281,2034,Office - Trading Floors,104.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+282,2035,Office - Trading Floors,99.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+283,2036,Office - Trading Floors,94.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+284,2037,Office - Trading Floors,89.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+285,2038,Office - Trading Floors,84.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+286,2039,Office - Trading Floors,79.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+287,2040,Office - Trading Floors,74.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+288,2050,Office - Trading Floors,74.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,newbuild
+289,2025,Office - Trading Floors,184.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+290,2026,Office - Trading Floors,179.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+291,2027,Office - Trading Floors,173.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+292,2028,Office - Trading Floors,167.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+293,2029,Office - Trading Floors,160.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+294,2030,Office - Trading Floors,154.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+295,2031,Office - Trading Floors,148.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+296,2032,Office - Trading Floors,142.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+297,2033,Office - Trading Floors,137.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+298,2034,Office - Trading Floors,130.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+299,2035,Office - Trading Floors,124.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+300,2036,Office - Trading Floors,118.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+301,2037,Office - Trading Floors,112.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+302,2038,Office - Trading Floors,105.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+303,2039,Office - Trading Floors,99.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+304,2040,Office - Trading Floors,93.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+305,2050,Office - Trading Floors,93.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,newbuild
+306,2025,Retail - Supermarket,200.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+307,2026,Retail - Supermarket,194.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+308,2027,Retail - Supermarket,188.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+309,2028,Retail - Supermarket,182.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+310,2029,Retail - Supermarket,176.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+311,2030,Retail - Supermarket,170.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+312,2031,Retail - Supermarket,164.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+313,2032,Retail - Supermarket,158.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+314,2033,Retail - Supermarket,152.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+315,2034,Retail - Supermarket,146.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+316,2035,Retail - Supermarket,140.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+317,2036,Retail - Supermarket,134.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+318,2037,Retail - Supermarket,128.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+319,2038,Retail - Supermarket,122.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+320,2039,Retail - Supermarket,116.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+321,2040,Retail - Supermarket,110.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+322,2050,Retail - Supermarket,110.0,Retail Super M.,kWh/m²GIA/yr,newbuild
+323,2025,Retail - High street retail e.g. dept. store,70.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+324,2026,Retail - High street retail e.g. dept. store,68.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+325,2027,Retail - High street retail e.g. dept. store,66.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+326,2028,Retail - High street retail e.g. dept. store,63.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+327,2029,Retail - High street retail e.g. dept. store,61.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+328,2030,Retail - High street retail e.g. dept. store,59.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+329,2031,Retail - High street retail e.g. dept. store,56.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+330,2032,Retail - High street retail e.g. dept. store,54.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+331,2033,Retail - High street retail e.g. dept. store,52.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+332,2034,Retail - High street retail e.g. dept. store,49.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+333,2035,Retail - High street retail e.g. dept. store,47.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+334,2036,Retail - High street retail e.g. dept. store,45.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+335,2037,Retail - High street retail e.g. dept. store,42.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+336,2038,Retail - High street retail e.g. dept. store,40.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+337,2039,Retail - High street retail e.g. dept. store,38.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+338,2040,Retail - High street retail e.g. dept. store,35.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+339,2050,Retail - High street retail e.g. dept. store,35.0,Retail Hi. St.,kWh/m²GIA/yr,newbuild
+340,2025,Retail - F&B without catering (a),215.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+341,2026,Retail - F&B without catering (a),209.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+342,2027,Retail - F&B without catering (a),202.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+343,2028,Retail - F&B without catering (a),195.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+344,2029,Retail - F&B without catering (a),189.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+345,2030,Retail - F&B without catering (a),182.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+346,2031,Retail - F&B without catering (a),175.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+347,2032,Retail - F&B without catering (a),169.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+348,2033,Retail - F&B without catering (a),162.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+349,2034,Retail - F&B without catering (a),155.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+350,2035,Retail - F&B without catering (a),149.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+351,2036,Retail - F&B without catering (a),142.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+352,2037,Retail - F&B without catering (a),135.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+353,2038,Retail - F&B without catering (a),129.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+354,2039,Retail - F&B without catering (a),122.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+355,2040,Retail - F&B without catering (a),115.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+356,2050,Retail - F&B without catering (a),115.0,Retail FB w/o Cater.,kWh/m²GIA/yr,newbuild
+357,2025,Retail - F&B with catering (b),380.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+358,2026,Retail - F&B with catering (b),370.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+359,2027,Retail - F&B with catering (b),359.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+360,2028,Retail - F&B with catering (b),348.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+361,2029,Retail - F&B with catering (b),338.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+362,2030,Retail - F&B with catering (b),327.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+363,2031,Retail - F&B with catering (b),316.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+364,2032,Retail - F&B with catering (b),306.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+365,2033,Retail - F&B with catering (b),295.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+366,2034,Retail - F&B with catering (b),284.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+367,2035,Retail - F&B with catering (b),274.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+368,2036,Retail - F&B with catering (b),263.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+369,2037,Retail - F&B with catering (b),252.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+370,2038,Retail - F&B with catering (b),242.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+371,2039,Retail - F&B with catering (b),231.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+372,2040,Retail - F&B with catering (b),220.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+373,2050,Retail - F&B with catering (b),220.0,Retail FB inc. Cater.,kWh/m²GIA/yr,newbuild
+374,2025,Retail - Landlord areas (c),55.0,Retail LL.,kWh/m²GIA/yr,newbuild
+375,2026,Retail - Landlord areas (c),54.0,Retail LL.,kWh/m²GIA/yr,newbuild
+376,2027,Retail - Landlord areas (c),53.0,Retail LL.,kWh/m²GIA/yr,newbuild
+377,2028,Retail - Landlord areas (c),52.0,Retail LL.,kWh/m²GIA/yr,newbuild
+378,2029,Retail - Landlord areas (c),51.0,Retail LL.,kWh/m²GIA/yr,newbuild
+379,2030,Retail - Landlord areas (c),50.0,Retail LL.,kWh/m²GIA/yr,newbuild
+380,2031,Retail - Landlord areas (c),49.0,Retail LL.,kWh/m²GIA/yr,newbuild
+381,2032,Retail - Landlord areas (c),48.0,Retail LL.,kWh/m²GIA/yr,newbuild
+382,2033,Retail - Landlord areas (c),47.0,Retail LL.,kWh/m²GIA/yr,newbuild
+383,2034,Retail - Landlord areas (c),46.0,Retail LL.,kWh/m²GIA/yr,newbuild
+384,2035,Retail - Landlord areas (c),45.0,Retail LL.,kWh/m²GIA/yr,newbuild
+385,2036,Retail - Landlord areas (c),44.0,Retail LL.,kWh/m²GIA/yr,newbuild
+386,2037,Retail - Landlord areas (c),43.0,Retail LL.,kWh/m²GIA/yr,newbuild
+387,2038,Retail - Landlord areas (c),42.0,Retail LL.,kWh/m²GIA/yr,newbuild
+388,2039,Retail - Landlord areas (c),41.0,Retail LL.,kWh/m²GIA/yr,newbuild
+389,2040,Retail - Landlord areas (c),40.0,Retail LL.,kWh/m²GIA/yr,newbuild
+390,2050,Retail - Landlord areas (c),40.0,Retail LL.,kWh/m²GIA/yr,newbuild
+391,2025,Retail - warehouse,80.0,Retail W.H,kWh/m²GIA/yr,newbuild
+392,2026,Retail - warehouse,78.0,Retail W.H,kWh/m²GIA/yr,newbuild
+393,2027,Retail - warehouse,75.0,Retail W.H,kWh/m²GIA/yr,newbuild
+394,2028,Retail - warehouse,72.0,Retail W.H,kWh/m²GIA/yr,newbuild
+395,2029,Retail - warehouse,70.0,Retail W.H,kWh/m²GIA/yr,newbuild
+396,2030,Retail - warehouse,67.0,Retail W.H,kWh/m²GIA/yr,newbuild
+397,2031,Retail - warehouse,64.0,Retail W.H,kWh/m²GIA/yr,newbuild
+398,2032,Retail - warehouse,62.0,Retail W.H,kWh/m²GIA/yr,newbuild
+399,2033,Retail - warehouse,59.0,Retail W.H,kWh/m²GIA/yr,newbuild
+400,2034,Retail - warehouse,56.0,Retail W.H,kWh/m²GIA/yr,newbuild
+401,2035,Retail - warehouse,54.0,Retail W.H,kWh/m²GIA/yr,newbuild
+402,2036,Retail - warehouse,51.0,Retail W.H,kWh/m²GIA/yr,newbuild
+403,2037,Retail - warehouse,48.0,Retail W.H,kWh/m²GIA/yr,newbuild
+404,2038,Retail - warehouse,46.0,Retail W.H,kWh/m²GIA/yr,newbuild
+405,2039,Retail - warehouse,43.0,Retail W.H,kWh/m²GIA/yr,newbuild
+406,2040,Retail - warehouse,40.0,Retail W.H,kWh/m²GIA/yr,newbuild
+407,2050,Retail - warehouse,40.0,Retail W.H,kWh/m²GIA/yr,newbuild
+408,2025,School - Early years,50.0,School E.Y.,kWh/m²GIA/yr,newbuild
+409,2026,School - Early years,50.0,School E.Y.,kWh/m²GIA/yr,newbuild
+410,2027,School - Early years,49.0,School E.Y.,kWh/m²GIA/yr,newbuild
+411,2028,School - Early years,48.0,School E.Y.,kWh/m²GIA/yr,newbuild
+412,2029,School - Early years,48.0,School E.Y.,kWh/m²GIA/yr,newbuild
+413,2030,School - Early years,47.0,School E.Y.,kWh/m²GIA/yr,newbuild
+414,2031,School - Early years,46.0,School E.Y.,kWh/m²GIA/yr,newbuild
+415,2032,School - Early years,46.0,School E.Y.,kWh/m²GIA/yr,newbuild
+416,2033,School - Early years,45.0,School E.Y.,kWh/m²GIA/yr,newbuild
+417,2034,School - Early years,44.0,School E.Y.,kWh/m²GIA/yr,newbuild
+418,2035,School - Early years,44.0,School E.Y.,kWh/m²GIA/yr,newbuild
+419,2036,School - Early years,43.0,School E.Y.,kWh/m²GIA/yr,newbuild
+420,2037,School - Early years,42.0,School E.Y.,kWh/m²GIA/yr,newbuild
+421,2038,School - Early years,42.0,School E.Y.,kWh/m²GIA/yr,newbuild
+422,2039,School - Early years,41.0,School E.Y.,kWh/m²GIA/yr,newbuild
+423,2040,School - Early years,40.0,School E.Y.,kWh/m²GIA/yr,newbuild
+424,2050,School - Early years,40.0,School E.Y.,kWh/m²GIA/yr,newbuild
+425,2025,School - Primary,45.0,School Pri.,kWh/m²GIA/yr,newbuild
+426,2026,School - Primary,45.0,School Pri.,kWh/m²GIA/yr,newbuild
+427,2027,School - Primary,44.0,School Pri.,kWh/m²GIA/yr,newbuild
+428,2028,School - Primary,43.0,School Pri.,kWh/m²GIA/yr,newbuild
+429,2029,School - Primary,43.0,School Pri.,kWh/m²GIA/yr,newbuild
+430,2030,School - Primary,42.0,School Pri.,kWh/m²GIA/yr,newbuild
+431,2031,School - Primary,41.0,School Pri.,kWh/m²GIA/yr,newbuild
+432,2032,School - Primary,41.0,School Pri.,kWh/m²GIA/yr,newbuild
+433,2033,School - Primary,40.0,School Pri.,kWh/m²GIA/yr,newbuild
+434,2034,School - Primary,39.0,School Pri.,kWh/m²GIA/yr,newbuild
+435,2035,School - Primary,39.0,School Pri.,kWh/m²GIA/yr,newbuild
+436,2036,School - Primary,38.0,School Pri.,kWh/m²GIA/yr,newbuild
+437,2037,School - Primary,37.0,School Pri.,kWh/m²GIA/yr,newbuild
+438,2038,School - Primary,37.0,School Pri.,kWh/m²GIA/yr,newbuild
+439,2039,School - Primary,36.0,School Pri.,kWh/m²GIA/yr,newbuild
+440,2040,School - Primary,35.0,School Pri.,kWh/m²GIA/yr,newbuild
+441,2050,School - Primary,35.0,School Pri.,kWh/m²GIA/yr,newbuild
+442,2025,School - Secondary or SEN,60.0,School Sec.,kWh/m²GIA/yr,newbuild
+443,2026,School - Secondary or SEN,59.0,School Sec.,kWh/m²GIA/yr,newbuild
+444,2027,School - Secondary or SEN,58.0,School Sec.,kWh/m²GIA/yr,newbuild
+445,2028,School - Secondary or SEN,57.0,School Sec.,kWh/m²GIA/yr,newbuild
+446,2029,School - Secondary or SEN,56.0,School Sec.,kWh/m²GIA/yr,newbuild
+447,2030,School - Secondary or SEN,55.0,School Sec.,kWh/m²GIA/yr,newbuild
+448,2031,School - Secondary or SEN,54.0,School Sec.,kWh/m²GIA/yr,newbuild
+449,2032,School - Secondary or SEN,53.0,School Sec.,kWh/m²GIA/yr,newbuild
+450,2033,School - Secondary or SEN,52.0,School Sec.,kWh/m²GIA/yr,newbuild
+451,2034,School - Secondary or SEN,51.0,School Sec.,kWh/m²GIA/yr,newbuild
+452,2035,School - Secondary or SEN,50.0,School Sec.,kWh/m²GIA/yr,newbuild
+453,2036,School - Secondary or SEN,49.0,School Sec.,kWh/m²GIA/yr,newbuild
+454,2037,School - Secondary or SEN,48.0,School Sec.,kWh/m²GIA/yr,newbuild
+455,2038,School - Secondary or SEN,47.0,School Sec.,kWh/m²GIA/yr,newbuild
+456,2039,School - Secondary or SEN,46.0,School Sec.,kWh/m²GIA/yr,newbuild
+457,2040,School - Secondary or SEN,45.0,School Sec.,kWh/m²GIA/yr,newbuild
+458,2050,School - Secondary or SEN,45.0,School Sec.,kWh/m²GIA/yr,newbuild
+459,2025,Science and Technology,305.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+460,2026,Science and Technology,297.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+461,2027,Science and Technology,289.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+462,2028,Science and Technology,280.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+463,2029,Science and Technology,272.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+464,2030,Science and Technology,264.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+465,2031,Science and Technology,255.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+466,2032,Science and Technology,247.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+467,2033,Science and Technology,239.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+468,2034,Science and Technology,230.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+469,2035,Science and Technology,222.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+470,2036,Science and Technology,214.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+471,2037,Science and Technology,205.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+472,2038,Science and Technology,197.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+473,2039,Science and Technology,189.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+474,2040,Science and Technology,180.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+475,2050,Science and Technology,180.0,Sci. &Tech.,kWh/m²GIA/yr,newbuild
+476,2025,Sport & Leisure - Dry,80.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+477,2026,Sport & Leisure - Dry,79.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+478,2027,Sport & Leisure - Dry,78.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+479,2028,Sport & Leisure - Dry,76.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+480,2029,Sport & Leisure - Dry,75.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+481,2030,Sport & Leisure - Dry,74.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+482,2031,Sport & Leisure - Dry,72.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+483,2032,Sport & Leisure - Dry,71.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+484,2033,Sport & Leisure - Dry,70.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+485,2034,Sport & Leisure - Dry,68.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+486,2035,Sport & Leisure - Dry,67.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+487,2036,Sport & Leisure - Dry,66.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+488,2037,Sport & Leisure - Dry,64.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+489,2038,Sport & Leisure - Dry,63.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+490,2039,Sport & Leisure - Dry,62.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+491,2040,Sport & Leisure - Dry,60.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+492,2050,Sport & Leisure - Dry,60.0,Sport &L Dry,kWh/m²GIA/yr,newbuild
+493,2025,Sport & Leisure - Wet,350.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+494,2026,Sport & Leisure - Wet,344.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+495,2027,Sport & Leisure - Wet,337.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+496,2028,Sport & Leisure - Wet,330.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+497,2029,Sport & Leisure - Wet,324.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+498,2030,Sport & Leisure - Wet,317.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+499,2031,Sport & Leisure - Wet,310.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+500,2032,Sport & Leisure - Wet,304.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+501,2033,Sport & Leisure - Wet,297.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+502,2034,Sport & Leisure - Wet,290.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+503,2035,Sport & Leisure - Wet,284.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+504,2036,Sport & Leisure - Wet,277.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+505,2037,Sport & Leisure - Wet,270.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+506,2038,Sport & Leisure - Wet,264.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+507,2039,Sport & Leisure - Wet,257.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+508,2040,Sport & Leisure - Wet,250.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+509,2050,Sport & Leisure - Wet,250.0,Sport &L Wet,kWh/m²GIA/yr,newbuild
+510,2025,Sport & Leisure - Fitness,150.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+511,2026,Sport & Leisure - Fitness,148.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+512,2027,Sport & Leisure - Fitness,145.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+513,2028,Sport & Leisure - Fitness,142.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+514,2029,Sport & Leisure - Fitness,140.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+515,2030,Sport & Leisure - Fitness,137.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+516,2031,Sport & Leisure - Fitness,134.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+517,2032,Sport & Leisure - Fitness,132.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+518,2033,Sport & Leisure - Fitness,129.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+519,2034,Sport & Leisure - Fitness,126.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+520,2035,Sport & Leisure - Fitness,124.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+521,2036,Sport & Leisure - Fitness,121.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+522,2037,Sport & Leisure - Fitness,118.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+523,2038,Sport & Leisure - Fitness,116.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+524,2039,Sport & Leisure - Fitness,113.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+525,2040,Sport & Leisure - Fitness,110.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+526,2050,Sport & Leisure - Fitness,110.0,Sport &L Fit.,kWh/m²GIA/yr,newbuild
+527,2025,Storage & Distribution - Unconditioned,35.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+528,2026,Storage & Distribution - Unconditioned,34.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+529,2027,Storage & Distribution - Unconditioned,33.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+530,2028,Storage & Distribution - Unconditioned,32.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+531,2029,Storage & Distribution - Unconditioned,31.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+532,2030,Storage & Distribution - Unconditioned,30.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+533,2031,Storage & Distribution - Unconditioned,29.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+534,2032,Storage & Distribution - Unconditioned,28.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+535,2033,Storage & Distribution - Unconditioned,27.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+536,2034,Storage & Distribution - Unconditioned,26.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+537,2035,Storage & Distribution - Unconditioned,25.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+538,2036,Storage & Distribution - Unconditioned,24.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+539,2037,Storage & Distribution - Unconditioned,23.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+540,2038,Storage & Distribution - Unconditioned,22.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+541,2039,Storage & Distribution - Unconditioned,21.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+542,2040,Storage & Distribution - Unconditioned,20.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+543,2050,Storage & Distribution - Unconditioned,20.0,Store & Dist Uncond.,kWh/m²GIA/yr,newbuild
+544,2025,Storage & Distribution - Conditioned,80.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+545,2026,Storage & Distribution - Conditioned,78.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+546,2027,Storage & Distribution - Conditioned,75.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+547,2028,Storage & Distribution - Conditioned,72.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+548,2029,Storage & Distribution - Conditioned,70.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+549,2030,Storage & Distribution - Conditioned,67.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+550,2031,Storage & Distribution - Conditioned,64.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+551,2032,Storage & Distribution - Conditioned,62.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+552,2033,Storage & Distribution - Conditioned,59.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+553,2034,Storage & Distribution - Conditioned,56.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+554,2035,Storage & Distribution - Conditioned,54.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+555,2036,Storage & Distribution - Conditioned,51.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+556,2037,Storage & Distribution - Conditioned,48.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+557,2038,Storage & Distribution - Conditioned,46.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+558,2039,Storage & Distribution - Conditioned,43.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+559,2040,Storage & Distribution - Conditioned,40.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+560,2050,Storage & Distribution - Conditioned,40.0,Store & Dist Cond.,kWh/m²GIA/yr,newbuild
+561,2025,Storage & Distribution - Cold Store,160.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+562,2026,Storage & Distribution - Cold Store,154.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+563,2027,Storage & Distribution - Cold Store,148.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+564,2028,Storage & Distribution - Cold Store,141.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+565,2029,Storage & Distribution - Cold Store,135.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+566,2030,Storage & Distribution - Cold Store,129.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+567,2031,Storage & Distribution - Cold Store,122.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+568,2032,Storage & Distribution - Cold Store,116.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+569,2033,Storage & Distribution - Cold Store,110.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+570,2034,Storage & Distribution - Cold Store,103.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+571,2035,Storage & Distribution - Cold Store,97.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+572,2036,Storage & Distribution - Cold Store,91.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+573,2037,Storage & Distribution - Cold Store,84.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+574,2038,Storage & Distribution - Cold Store,78.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+575,2039,Storage & Distribution - Cold Store,72.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+576,2040,Storage & Distribution - Cold Store,65.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+577,2050,Storage & Distribution - Cold Store,65.0,Store & Dist Cold,kWh/m²GIA/yr,newbuild
+578,2025,Commercial Resi - Student Residential,110.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+579,2026,Commercial Resi - Student Residential,108.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+580,2027,Commercial Resi - Student Residential,106.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+581,2028,Commercial Resi - Student Residential,103.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+582,2029,Commercial Resi - Student Residential,101.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+583,2030,Commercial Resi - Student Residential,99.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+584,2031,Commercial Resi - Student Residential,96.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+585,2032,Commercial Resi - Student Residential,94.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+586,2033,Commercial Resi - Student Residential,92.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+587,2034,Commercial Resi - Student Residential,89.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+588,2035,Commercial Resi - Student Residential,87.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+589,2036,Commercial Resi - Student Residential,85.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+590,2037,Commercial Resi - Student Residential,82.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+591,2038,Commercial Resi - Student Residential,80.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+592,2039,Commercial Resi - Student Residential,78.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+593,2040,Commercial Resi - Student Residential,75.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+594,2050,Commercial Resi - Student Residential,75.0,Stud. Resi.,kWh/m²GIA/yr,retrofit-in-one-go
+595,2025,Commercial Resi - Care Home,220.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+596,2026,Commercial Resi - Care Home,216.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+597,2027,Commercial Resi - Care Home,211.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+598,2028,Commercial Resi - Care Home,206.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+599,2029,Commercial Resi - Care Home,202.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+600,2030,Commercial Resi - Care Home,197.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+601,2031,Commercial Resi - Care Home,192.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+602,2032,Commercial Resi - Care Home,188.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+603,2033,Commercial Resi - Care Home,183.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+604,2034,Commercial Resi - Care Home,178.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+605,2035,Commercial Resi - Care Home,174.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+606,2036,Commercial Resi - Care Home,169.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+607,2037,Commercial Resi - Care Home,164.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+608,2038,Commercial Resi - Care Home,160.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+609,2039,Commercial Resi - Care Home,155.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+610,2040,Commercial Resi - Care Home,150.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+611,2050,Commercial Resi - Care Home,150.0,Care Home,kWh/m²GIA/yr,retrofit-in-one-go
+612,2025,Culture & Enterainment - Performance,130.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+613,2026,Culture & Enterainment - Performance,128.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+614,2027,Culture & Enterainment - Performance,125.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+615,2028,Culture & Enterainment - Performance,122.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+616,2029,Culture & Enterainment - Performance,120.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+617,2030,Culture & Enterainment - Performance,117.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+618,2031,Culture & Enterainment - Performance,114.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+619,2032,Culture & Enterainment - Performance,112.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+620,2033,Culture & Enterainment - Performance,109.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+621,2034,Culture & Enterainment - Performance,106.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+622,2035,Culture & Enterainment - Performance,104.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+623,2036,Culture & Enterainment - Performance,101.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+624,2037,Culture & Enterainment - Performance,98.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+625,2038,Culture & Enterainment - Performance,96.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+626,2039,Culture & Enterainment - Performance,93.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+627,2040,Culture & Enterainment - Performance,90.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+628,2050,Culture & Enterainment - Performance,90.0,C&E Perfor.,kWh/m²GIA/yr,retrofit-in-one-go
+629,2025,Culture & Enterainment - Collection (e.g. museum),100.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+630,2026,Culture & Enterainment - Collection (e.g. museum),98.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+631,2027,Culture & Enterainment - Collection (e.g. museum),96.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+632,2028,Culture & Enterainment - Collection (e.g. museum),93.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+633,2029,Culture & Enterainment - Collection (e.g. museum),91.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+634,2030,Culture & Enterainment - Collection (e.g. museum),89.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+635,2031,Culture & Enterainment - Collection (e.g. museum),86.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+636,2032,Culture & Enterainment - Collection (e.g. museum),84.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+637,2033,Culture & Enterainment - Collection (e.g. museum),82.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+638,2034,Culture & Enterainment - Collection (e.g. museum),79.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+639,2035,Culture & Enterainment - Collection (e.g. museum),77.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+640,2036,Culture & Enterainment - Collection (e.g. museum),75.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+641,2037,Culture & Enterainment - Collection (e.g. museum),72.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+642,2038,Culture & Enterainment - Collection (e.g. museum),70.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+643,2039,Culture & Enterainment - Collection (e.g. museum),68.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+644,2040,Culture & Enterainment - Collection (e.g. museum),65.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+645,2050,Culture & Enterainment - Collection (e.g. museum),65.0,C&E Collec.,kWh/m²GIA/yr,retrofit-in-one-go
+646,2025,Culture & Enterainment - Archive,10.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+647,2026,Culture & Enterainment - Archive,10.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+648,2027,Culture & Enterainment - Archive,10.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+649,2028,Culture & Enterainment - Archive,10.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+650,2029,Culture & Enterainment - Archive,10.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+651,2030,Culture & Enterainment - Archive,9.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+652,2031,Culture & Enterainment - Archive,9.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+653,2032,Culture & Enterainment - Archive,9.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+654,2033,Culture & Enterainment - Archive,9.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+655,2034,Culture & Enterainment - Archive,9.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+656,2035,Culture & Enterainment - Archive,8.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+657,2036,Culture & Enterainment - Archive,8.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+658,2037,Culture & Enterainment - Archive,8.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+659,2038,Culture & Enterainment - Archive,8.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+660,2039,Culture & Enterainment - Archive,8.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+661,2040,Culture & Enterainment - Archive,7.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+662,2050,Culture & Enterainment - Archive,7.0,C&E Arch.,kWh/m²GIA/yr,retrofit-in-one-go
+663,2025,Data Centre - Low utilisation,1.4,Data Centre,PUE,retrofit-in-one-go
+664,2026,Data Centre - Low utilisation,1.4,Data Centre,PUE,retrofit-in-one-go
+665,2027,Data Centre - Low utilisation,1.39,Data Centre,PUE,retrofit-in-one-go
+666,2028,Data Centre - Low utilisation,1.38,Data Centre,PUE,retrofit-in-one-go
+667,2029,Data Centre - Low utilisation,1.38,Data Centre,PUE,retrofit-in-one-go
+668,2030,Data Centre - Low utilisation,1.37,Data Centre,PUE,retrofit-in-one-go
+669,2031,Data Centre - Low utilisation,1.36,Data Centre,PUE,retrofit-in-one-go
+670,2032,Data Centre - Low utilisation,1.36,Data Centre,PUE,retrofit-in-one-go
+671,2033,Data Centre - Low utilisation,1.35,Data Centre,PUE,retrofit-in-one-go
+672,2034,Data Centre - Low utilisation,1.34,Data Centre,PUE,retrofit-in-one-go
+673,2035,Data Centre - Low utilisation,1.34,Data Centre,PUE,retrofit-in-one-go
+674,2036,Data Centre - Low utilisation,1.33,Data Centre,PUE,retrofit-in-one-go
+675,2037,Data Centre - Low utilisation,1.32,Data Centre,PUE,retrofit-in-one-go
+676,2038,Data Centre - Low utilisation,1.32,Data Centre,PUE,retrofit-in-one-go
+677,2039,Data Centre - Low utilisation,1.31,Data Centre,PUE,retrofit-in-one-go
+678,2040,Data Centre - Low utilisation,1.3,Data Centre,PUE,retrofit-in-one-go
+679,2050,Data Centre - Low utilisation,1.3,Data Centre,PUE,retrofit-in-one-go
+680,2025,Data Centre - High utilisation,1.2,Data Centre.1,PUE,retrofit-in-one-go
+681,2026,Data Centre - High utilisation,1.2,Data Centre.1,PUE,retrofit-in-one-go
+682,2027,Data Centre - High utilisation,1.19,Data Centre.1,PUE,retrofit-in-one-go
+683,2028,Data Centre - High utilisation,1.18,Data Centre.1,PUE,retrofit-in-one-go
+684,2029,Data Centre - High utilisation,1.18,Data Centre.1,PUE,retrofit-in-one-go
+685,2030,Data Centre - High utilisation,1.17,Data Centre.1,PUE,retrofit-in-one-go
+686,2031,Data Centre - High utilisation,1.16,Data Centre.1,PUE,retrofit-in-one-go
+687,2032,Data Centre - High utilisation,1.16,Data Centre.1,PUE,retrofit-in-one-go
+688,2033,Data Centre - High utilisation,1.15,Data Centre.1,PUE,retrofit-in-one-go
+689,2034,Data Centre - High utilisation,1.14,Data Centre.1,PUE,retrofit-in-one-go
+690,2035,Data Centre - High utilisation,1.14,Data Centre.1,PUE,retrofit-in-one-go
+691,2036,Data Centre - High utilisation,1.13,Data Centre.1,PUE,retrofit-in-one-go
+692,2037,Data Centre - High utilisation,1.12,Data Centre.1,PUE,retrofit-in-one-go
+693,2038,Data Centre - High utilisation,1.12,Data Centre.1,PUE,retrofit-in-one-go
+694,2039,Data Centre - High utilisation,1.11,Data Centre.1,PUE,retrofit-in-one-go
+695,2040,Data Centre - High utilisation,1.1,Data Centre.1,PUE,retrofit-in-one-go
+696,2050,Data Centre - High utilisation,1.1,Data Centre.1,PUE,retrofit-in-one-go
+697,2025,Healthcare - Acute Trust,258.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+698,2026,Healthcare - Acute Trust,259.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+699,2027,Healthcare - Acute Trust,259.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+700,2028,Healthcare - Acute Trust,259.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+701,2029,Healthcare - Acute Trust,259.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+702,2030,Healthcare - Acute Trust,259.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+703,2031,Healthcare - Acute Trust,259.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+704,2032,Healthcare - Acute Trust,259.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+705,2033,Healthcare - Acute Trust,259.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+706,2034,Healthcare - Acute Trust,259.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+707,2035,Healthcare - Acute Trust,259.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+708,2036,Healthcare - Acute Trust,259.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+709,2037,Healthcare - Acute Trust,259.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+710,2038,Healthcare - Acute Trust,259.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+711,2039,Healthcare - Acute Trust,259.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+712,2040,Healthcare - Acute Trust,258.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+713,2050,Healthcare - Acute Trust,258.0,Health. Acute,kWh/m²GIA/yr,retrofit-in-one-go
+714,2025,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+715,2026,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+716,2027,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+717,2028,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+718,2029,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+719,2030,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+720,2031,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+721,2032,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+722,2033,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+723,2034,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+724,2035,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+725,2036,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+726,2037,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+727,2038,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+728,2039,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+729,2040,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+730,2050,Healthcare - Care Trust,140.0,Health. Care,kWh/m²GIA/yr,retrofit-in-one-go
+731,2025,Healthcare - Community Trust,162.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+732,2026,Healthcare - Community Trust,163.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+733,2027,Healthcare - Community Trust,163.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+734,2028,Healthcare - Community Trust,163.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+735,2029,Healthcare - Community Trust,163.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+736,2030,Healthcare - Community Trust,163.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+737,2031,Healthcare - Community Trust,163.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+738,2032,Healthcare - Community Trust,163.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+739,2033,Healthcare - Community Trust,163.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+740,2034,Healthcare - Community Trust,163.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+741,2035,Healthcare - Community Trust,163.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+742,2036,Healthcare - Community Trust,163.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+743,2037,Healthcare - Community Trust,163.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+744,2038,Healthcare - Community Trust,163.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+745,2039,Healthcare - Community Trust,163.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+746,2040,Healthcare - Community Trust,162.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+747,2050,Healthcare - Community Trust,162.0,Health. Comm.,kWh/m²GIA/yr,retrofit-in-one-go
+748,2025,Healthcare - Mental Health & Learning Trust,166.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+749,2026,Healthcare - Mental Health & Learning Trust,167.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+750,2027,Healthcare - Mental Health & Learning Trust,167.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+751,2028,Healthcare - Mental Health & Learning Trust,167.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+752,2029,Healthcare - Mental Health & Learning Trust,167.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+753,2030,Healthcare - Mental Health & Learning Trust,167.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+754,2031,Healthcare - Mental Health & Learning Trust,167.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+755,2032,Healthcare - Mental Health & Learning Trust,167.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+756,2033,Healthcare - Mental Health & Learning Trust,167.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+757,2034,Healthcare - Mental Health & Learning Trust,167.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+758,2035,Healthcare - Mental Health & Learning Trust,167.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+759,2036,Healthcare - Mental Health & Learning Trust,167.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+760,2037,Healthcare - Mental Health & Learning Trust,167.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+761,2038,Healthcare - Mental Health & Learning Trust,167.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+762,2039,Healthcare - Mental Health & Learning Trust,167.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+763,2040,Healthcare - Mental Health & Learning Trust,166.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+764,2050,Healthcare - Mental Health & Learning Trust,166.0,Health. MH & L. .,kWh/m²GIA/yr,retrofit-in-one-go
+765,2025,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+766,2026,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+767,2027,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+768,2028,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+769,2029,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+770,2030,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+771,2031,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+772,2032,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+773,2033,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+774,2034,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+775,2035,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+776,2036,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+777,2037,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+778,2038,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+779,2039,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+780,2040,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+781,2050,Healthcare - Ambulance Trust,182.0,Health. Amb.,kWh/m²GIA/yr,retrofit-in-one-go
+782,2025,Higher Education,130.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+783,2026,Higher Education,127.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+784,2027,Higher Education,123.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+785,2028,Higher Education,119.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+786,2029,Higher Education,116.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+787,2030,Higher Education,112.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+788,2031,Higher Education,108.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+789,2032,Higher Education,105.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+790,2033,Higher Education,101.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+791,2034,Higher Education,97.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+792,2035,Higher Education,94.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+793,2036,Higher Education,90.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+794,2037,Higher Education,86.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+795,2038,Higher Education,83.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+796,2039,Higher Education,79.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+797,2040,Higher Education,75.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+798,2050,Higher Education,75.0,High. Ed.,kWh/m²GIA/yr,retrofit-in-one-go
+799,2025,Homes - Single family homes,75.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+800,2026,Homes - Single family homes,74.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+801,2027,Homes - Single family homes,73.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+802,2028,Homes - Single family homes,72.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+803,2029,Homes - Single family homes,71.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+804,2030,Homes - Single family homes,70.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+805,2031,Homes - Single family homes,69.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+806,2032,Homes - Single family homes,68.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+807,2033,Homes - Single family homes,66.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+808,2034,Homes - Single family homes,65.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+809,2035,Homes - Single family homes,64.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+810,2036,Homes - Single family homes,63.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+811,2037,Homes - Single family homes,62.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+812,2038,Homes - Single family homes,61.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+813,2039,Homes - Single family homes,60.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+814,2040,Homes - Single family homes,58.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+815,2050,Homes - Single family homes,58.0,Home S.F.,kWh/m²GIA/yr,retrofit-in-one-go
+816,2025,Homes - Flats,65.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+817,2026,Homes - Flats,65.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+818,2027,Homes - Flats,64.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+819,2028,Homes - Flats,64.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+820,2029,Homes - Flats,63.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+821,2030,Homes - Flats,63.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+822,2031,Homes - Flats,62.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+823,2032,Homes - Flats,62.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+824,2033,Homes - Flats,61.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+825,2034,Homes - Flats,61.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+826,2035,Homes - Flats,60.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+827,2036,Homes - Flats,60.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+828,2037,Homes - Flats,59.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+829,2038,Homes - Flats,59.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+830,2039,Homes - Flats,58.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+831,2040,Homes - Flats,57.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+832,2050,Homes - Flats,57.0,Home Flat.,kWh/m²GIA/yr,retrofit-in-one-go
+833,2025,Hotel,180.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+834,2026,Hotel,176.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+835,2027,Hotel,172.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+836,2028,Hotel,168.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+837,2029,Hotel,164.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+838,2030,Hotel,160.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+839,2031,Hotel,156.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+840,2032,Hotel,152.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+841,2033,Hotel,148.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+842,2034,Hotel,144.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+843,2035,Hotel,140.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+844,2036,Hotel,136.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+845,2037,Hotel,132.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+846,2038,Hotel,128.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+847,2039,Hotel,124.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+848,2040,Hotel,120.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+849,2050,Hotel,120.0,Hotel,kWh/m²GIA/yr,retrofit-in-one-go
+850,2025,Office - General,100.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+851,2026,Office - General,97.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+852,2027,Office - General,94.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+853,2028,Office - General,91.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+854,2029,Office - General,88.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+855,2030,Office - General,85.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+856,2031,Office - General,82.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+857,2032,Office - General,79.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+858,2033,Office - General,76.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+859,2034,Office - General,73.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+860,2035,Office - General,70.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+861,2036,Office - General,67.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+862,2037,Office - General,64.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+863,2038,Office - General,61.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+864,2039,Office - General,58.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+865,2040,Office - General,55.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+866,2050,Office - General,55.0,Off. Gen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+867,2025,Office - General,125.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+868,2026,Office - General,122.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+869,2027,Office - General,118.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+870,2028,Office - General,114.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+871,2029,Office - General,110.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+872,2030,Office - General,107.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+873,2031,Office - General,103.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+874,2032,Office - General,99.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+875,2033,Office - General,95.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+876,2034,Office - General,92.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+877,2035,Office - General,88.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+878,2036,Office - General,84.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+879,2037,Office - General,80.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+880,2038,Office - General,77.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+881,2039,Office - General,73.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+882,2040,Office - General,69.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+883,2050,Office - General,69.0,Off. Gen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+884,2025,Office - Call Centre,191.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+885,2026,Office - Call Centre,187.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+886,2027,Office - Call Centre,183.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+887,2028,Office - Call Centre,179.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+888,2029,Office - Call Centre,174.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+889,2030,Office - Call Centre,170.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+890,2031,Office - Call Centre,166.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+891,2032,Office - Call Centre,162.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+892,2033,Office - Call Centre,157.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+893,2034,Office - Call Centre,153.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+894,2035,Office - Call Centre,149.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+895,2036,Office - Call Centre,145.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+896,2037,Office - Call Centre,140.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+897,2038,Office - Call Centre,136.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+898,2039,Office - Call Centre,132.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+899,2040,Office - Call Centre,127.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+900,2050,Office - Call Centre,127.0,Off. Call Cen. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+901,2025,Office - Call Centre,239.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+902,2026,Office - Call Centre,234.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+903,2027,Office - Call Centre,229.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+904,2028,Office - Call Centre,224.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+905,2029,Office - Call Centre,218.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+906,2030,Office - Call Centre,213.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+907,2031,Office - Call Centre,208.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+908,2032,Office - Call Centre,203.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+909,2033,Office - Call Centre,197.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+910,2034,Office - Call Centre,192.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+911,2035,Office - Call Centre,187.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+912,2036,Office - Call Centre,182.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+913,2037,Office - Call Centre,175.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+914,2038,Office - Call Centre,170.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+915,2039,Office - Call Centre,165.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+916,2040,Office - Call Centre,159.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+917,2050,Office - Call Centre,159.0,Call Cen. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+918,2025,Office - Trading Floors,220.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+919,2026,Office - Trading Floors,216.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+920,2027,Office - Trading Floors,211.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+921,2028,Office - Trading Floors,206.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+922,2029,Office - Trading Floors,201.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+923,2030,Office - Trading Floors,196.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+924,2031,Office - Trading Floors,191.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+925,2032,Office - Trading Floors,186.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+926,2033,Office - Trading Floors,182.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+927,2034,Office - Trading Floors,177.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+928,2035,Office - Trading Floors,172.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+929,2036,Office - Trading Floors,167.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+930,2037,Office - Trading Floors,162.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+931,2038,Office - Trading Floors,157.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+932,2039,Office - Trading Floors,152.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+933,2040,Office - Trading Floors,147.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+934,2050,Office - Trading Floors,147.0,Off. Tr. Fl. (GIA),kWh/m²GIA/yr,retrofit-in-one-go
+935,2025,Office - Trading Floors,275.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+936,2026,Office - Trading Floors,270.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+937,2027,Office - Trading Floors,264.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+938,2028,Office - Trading Floors,258.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+939,2029,Office - Trading Floors,252.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+940,2030,Office - Trading Floors,245.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+941,2031,Office - Trading Floors,239.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+942,2032,Office - Trading Floors,233.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+943,2033,Office - Trading Floors,228.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+944,2034,Office - Trading Floors,222.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+945,2035,Office - Trading Floors,215.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+946,2036,Office - Trading Floors,209.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+947,2037,Office - Trading Floors,203.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+948,2038,Office - Trading Floors,197.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+949,2039,Office - Trading Floors,190.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+950,2040,Office - Trading Floors,184.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+951,2050,Office - Trading Floors,184.0,Off. Tr. Fl. (NIA),kWh/m²NIA/yr,retrofit-in-one-go
+952,2025,Retail - Supermarket,230.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+953,2026,Retail - Supermarket,224.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+954,2027,Retail - Supermarket,217.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+955,2028,Retail - Supermarket,210.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+956,2029,Retail - Supermarket,204.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+957,2030,Retail - Supermarket,197.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+958,2031,Retail - Supermarket,190.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+959,2032,Retail - Supermarket,184.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+960,2033,Retail - Supermarket,177.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+961,2034,Retail - Supermarket,170.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+962,2035,Retail - Supermarket,164.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+963,2036,Retail - Supermarket,157.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+964,2037,Retail - Supermarket,150.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+965,2038,Retail - Supermarket,144.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+966,2039,Retail - Supermarket,137.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+967,2040,Retail - Supermarket,130.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+968,2050,Retail - Supermarket,130.0,Retail Super M.,kWh/m²GIA/yr,retrofit-in-one-go
+969,2025,Retail - High street retail e.g. dept. store,90.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+970,2026,Retail - High street retail e.g. dept. store,87.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+971,2027,Retail - High street retail e.g. dept. store,84.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+972,2028,Retail - High street retail e.g. dept. store,81.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+973,2029,Retail - High street retail e.g. dept. store,78.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+974,2030,Retail - High street retail e.g. dept. store,75.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+975,2031,Retail - High street retail e.g. dept. store,72.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+976,2032,Retail - High street retail e.g. dept. store,69.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+977,2033,Retail - High street retail e.g. dept. store,66.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+978,2034,Retail - High street retail e.g. dept. store,63.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+979,2035,Retail - High street retail e.g. dept. store,60.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+980,2036,Retail - High street retail e.g. dept. store,57.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+981,2037,Retail - High street retail e.g. dept. store,54.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+982,2038,Retail - High street retail e.g. dept. store,51.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+983,2039,Retail - High street retail e.g. dept. store,48.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+984,2040,Retail - High street retail e.g. dept. store,45.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+985,2050,Retail - High street retail e.g. dept. store,45.0,Retail Hi. St.,kWh/m²GIA/yr,retrofit-in-one-go
+986,2025,Retail - F&B without catering (a),250.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+987,2026,Retail - F&B without catering (a),243.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+988,2027,Retail - F&B without catering (a),236.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+989,2028,Retail - F&B without catering (a),228.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+990,2029,Retail - F&B without catering (a),221.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+991,2030,Retail - F&B without catering (a),214.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+992,2031,Retail - F&B without catering (a),206.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+993,2032,Retail - F&B without catering (a),199.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+994,2033,Retail - F&B without catering (a),192.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+995,2034,Retail - F&B without catering (a),184.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+996,2035,Retail - F&B without catering (a),177.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+997,2036,Retail - F&B without catering (a),170.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+998,2037,Retail - F&B without catering (a),162.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+999,2038,Retail - F&B without catering (a),155.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1000,2039,Retail - F&B without catering (a),148.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1001,2040,Retail - F&B without catering (a),140.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1002,2050,Retail - F&B without catering (a),140.0,Retail FB w/o Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1003,2025,Retail - F&B with catering (b),450.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1004,2026,Retail - F&B with catering (b),438.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1005,2027,Retail - F&B with catering (b),425.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1006,2028,Retail - F&B with catering (b),412.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1007,2029,Retail - F&B with catering (b),400.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1008,2030,Retail - F&B with catering (b),387.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1009,2031,Retail - F&B with catering (b),374.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1010,2032,Retail - F&B with catering (b),362.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1011,2033,Retail - F&B with catering (b),349.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1012,2034,Retail - F&B with catering (b),336.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1013,2035,Retail - F&B with catering (b),324.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1014,2036,Retail - F&B with catering (b),311.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1015,2037,Retail - F&B with catering (b),298.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1016,2038,Retail - F&B with catering (b),286.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1017,2039,Retail - F&B with catering (b),273.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1018,2040,Retail - F&B with catering (b),260.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1019,2050,Retail - F&B with catering (b),260.0,Retail FB inc. Cater.,kWh/m²GIA/yr,retrofit-in-one-go
+1020,2025,Retail - Landlord areas (c),80.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1021,2026,Retail - Landlord areas (c),79.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1022,2027,Retail - Landlord areas (c),77.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1023,2028,Retail - Landlord areas (c),75.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1024,2029,Retail - Landlord areas (c),74.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1025,2030,Retail - Landlord areas (c),72.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1026,2031,Retail - Landlord areas (c),70.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1027,2032,Retail - Landlord areas (c),69.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1028,2033,Retail - Landlord areas (c),67.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1029,2034,Retail - Landlord areas (c),65.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1030,2035,Retail - Landlord areas (c),64.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1031,2036,Retail - Landlord areas (c),62.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1032,2037,Retail - Landlord areas (c),60.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1033,2038,Retail - Landlord areas (c),59.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1034,2039,Retail - Landlord areas (c),57.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1035,2040,Retail - Landlord areas (c),55.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1036,2050,Retail - Landlord areas (c),55.0,Retail LL.,kWh/m²GIA/yr,retrofit-in-one-go
+1037,2025,Retail - warehouse,100.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1038,2026,Retail - warehouse,97.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1039,2027,Retail - warehouse,94.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1040,2028,Retail - warehouse,90.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1041,2029,Retail - warehouse,87.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1042,2030,Retail - warehouse,84.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1043,2031,Retail - warehouse,80.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1044,2032,Retail - warehouse,77.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1045,2033,Retail - warehouse,74.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1046,2034,Retail - warehouse,70.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1047,2035,Retail - warehouse,67.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1048,2036,Retail - warehouse,64.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1049,2037,Retail - warehouse,60.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1050,2038,Retail - warehouse,57.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1051,2039,Retail - warehouse,54.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1052,2040,Retail - warehouse,50.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1053,2050,Retail - warehouse,50.0,Retail W.H,kWh/m²GIA/yr,retrofit-in-one-go
+1054,2025,School - Early years,90.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1055,2026,School - Early years,89.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1056,2027,School - Early years,88.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1057,2028,School - Early years,86.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1058,2029,School - Early years,85.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1059,2030,School - Early years,84.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1060,2031,School - Early years,82.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1061,2032,School - Early years,81.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1062,2033,School - Early years,80.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1063,2034,School - Early years,78.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1064,2035,School - Early years,77.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1065,2036,School - Early years,76.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1066,2037,School - Early years,74.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1067,2038,School - Early years,73.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1068,2039,School - Early years,72.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1069,2040,School - Early years,70.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1070,2050,School - Early years,70.0,School E.Y.,kWh/m²GIA/yr,retrofit-in-one-go
+1071,2025,School - Primary,85.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1072,2026,School - Primary,84.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1073,2027,School - Primary,83.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1074,2028,School - Primary,81.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1075,2029,School - Primary,80.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1076,2030,School - Primary,79.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1077,2031,School - Primary,77.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1078,2032,School - Primary,76.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1079,2033,School - Primary,75.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1080,2034,School - Primary,73.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1081,2035,School - Primary,72.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1082,2036,School - Primary,71.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1083,2037,School - Primary,69.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1084,2038,School - Primary,68.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1085,2039,School - Primary,67.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1086,2040,School - Primary,65.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1087,2050,School - Primary,65.0,School Pri.,kWh/m²GIA/yr,retrofit-in-one-go
+1088,2025,School - Secondary or SEN,95.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1089,2026,School - Secondary or SEN,94.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1090,2027,School - Secondary or SEN,92.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1091,2028,School - Secondary or SEN,90.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1092,2029,School - Secondary or SEN,89.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1093,2030,School - Secondary or SEN,87.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1094,2031,School - Secondary or SEN,85.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1095,2032,School - Secondary or SEN,84.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1096,2033,School - Secondary or SEN,82.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1097,2034,School - Secondary or SEN,80.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1098,2035,School - Secondary or SEN,79.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1099,2036,School - Secondary or SEN,77.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1100,2037,School - Secondary or SEN,75.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1101,2038,School - Secondary or SEN,74.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1102,2039,School - Secondary or SEN,72.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1103,2040,School - Secondary or SEN,70.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1104,2050,School - Secondary or SEN,70.0,School Sec.,kWh/m²GIA/yr,retrofit-in-one-go
+1105,2025,Science and Technology,360.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1106,2026,Science and Technology,351.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1107,2027,Science and Technology,341.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1108,2028,Science and Technology,331.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1109,2029,Science and Technology,322.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1110,2030,Science and Technology,312.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1111,2031,Science and Technology,302.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1112,2032,Science and Technology,293.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1113,2033,Science and Technology,283.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1114,2034,Science and Technology,273.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1115,2035,Science and Technology,264.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1116,2036,Science and Technology,254.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1117,2037,Science and Technology,244.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1118,2038,Science and Technology,235.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1119,2039,Science and Technology,225.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1120,2040,Science and Technology,215.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1121,2050,Science and Technology,215.0,Sci. &Tech.,kWh/m²GIA/yr,retrofit-in-one-go
+1122,2025,Sport & Leisure - Dry,210.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1123,2026,Sport & Leisure - Dry,206.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1124,2027,Sport & Leisure - Dry,202.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1125,2028,Sport & Leisure - Dry,198.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1126,2029,Sport & Leisure - Dry,194.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1127,2030,Sport & Leisure - Dry,190.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1128,2031,Sport & Leisure - Dry,186.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1129,2032,Sport & Leisure - Dry,182.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1130,2033,Sport & Leisure - Dry,178.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1131,2034,Sport & Leisure - Dry,174.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1132,2035,Sport & Leisure - Dry,170.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1133,2036,Sport & Leisure - Dry,166.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1134,2037,Sport & Leisure - Dry,162.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1135,2038,Sport & Leisure - Dry,158.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1136,2039,Sport & Leisure - Dry,154.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1137,2040,Sport & Leisure - Dry,150.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1138,2050,Sport & Leisure - Dry,150.0,Sport &L Dry,kWh/m²GIA/yr,retrofit-in-one-go
+1139,2025,Sport & Leisure - Wet,500.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1140,2026,Sport & Leisure - Wet,490.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1141,2027,Sport & Leisure - Wet,480.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1142,2028,Sport & Leisure - Wet,470.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1143,2029,Sport & Leisure - Wet,460.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1144,2030,Sport & Leisure - Wet,450.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1145,2031,Sport & Leisure - Wet,440.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1146,2032,Sport & Leisure - Wet,430.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1147,2033,Sport & Leisure - Wet,420.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1148,2034,Sport & Leisure - Wet,410.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1149,2035,Sport & Leisure - Wet,400.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1150,2036,Sport & Leisure - Wet,390.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1151,2037,Sport & Leisure - Wet,380.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1152,2038,Sport & Leisure - Wet,370.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1153,2039,Sport & Leisure - Wet,360.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1154,2040,Sport & Leisure - Wet,350.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1155,2050,Sport & Leisure - Wet,350.0,Sport &L Wet,kWh/m²GIA/yr,retrofit-in-one-go
+1156,2025,Sport & Leisure - Fitness,280.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1157,2026,Sport & Leisure - Fitness,275.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1158,2027,Sport & Leisure - Fitness,270.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1159,2028,Sport & Leisure - Fitness,264.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1160,2029,Sport & Leisure - Fitness,259.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1161,2030,Sport & Leisure - Fitness,254.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1162,2031,Sport & Leisure - Fitness,248.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1163,2032,Sport & Leisure - Fitness,243.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1164,2033,Sport & Leisure - Fitness,238.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1165,2034,Sport & Leisure - Fitness,232.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1166,2035,Sport & Leisure - Fitness,227.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1167,2036,Sport & Leisure - Fitness,222.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1168,2037,Sport & Leisure - Fitness,216.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1169,2038,Sport & Leisure - Fitness,211.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1170,2039,Sport & Leisure - Fitness,206.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1171,2040,Sport & Leisure - Fitness,200.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1172,2050,Sport & Leisure - Fitness,200.0,Sport &L Fit.,kWh/m²GIA/yr,retrofit-in-one-go
+1173,2025,Storage & Distribution - Unconditioned,35.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1174,2026,Storage & Distribution - Unconditioned,34.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1175,2027,Storage & Distribution - Unconditioned,33.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1176,2028,Storage & Distribution - Unconditioned,32.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1177,2029,Storage & Distribution - Unconditioned,31.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1178,2030,Storage & Distribution - Unconditioned,30.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1179,2031,Storage & Distribution - Unconditioned,29.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1180,2032,Storage & Distribution - Unconditioned,28.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1181,2033,Storage & Distribution - Unconditioned,27.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1182,2034,Storage & Distribution - Unconditioned,26.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1183,2035,Storage & Distribution - Unconditioned,25.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1184,2036,Storage & Distribution - Unconditioned,24.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1185,2037,Storage & Distribution - Unconditioned,23.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1186,2038,Storage & Distribution - Unconditioned,22.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1187,2039,Storage & Distribution - Unconditioned,21.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1188,2040,Storage & Distribution - Unconditioned,20.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1189,2050,Storage & Distribution - Unconditioned,20.0,Store & Dist Uncond.,kWh/m²GIA/yr,retrofit-in-one-go
+1190,2025,Storage & Distribution - Conditioned,100.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1191,2026,Storage & Distribution - Conditioned,97.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1192,2027,Storage & Distribution - Conditioned,94.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1193,2028,Storage & Distribution - Conditioned,90.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1194,2029,Storage & Distribution - Conditioned,87.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1195,2030,Storage & Distribution - Conditioned,84.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1196,2031,Storage & Distribution - Conditioned,80.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1197,2032,Storage & Distribution - Conditioned,77.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1198,2033,Storage & Distribution - Conditioned,74.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1199,2034,Storage & Distribution - Conditioned,70.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1200,2035,Storage & Distribution - Conditioned,67.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1201,2036,Storage & Distribution - Conditioned,64.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1202,2037,Storage & Distribution - Conditioned,60.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1203,2038,Storage & Distribution - Conditioned,57.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1204,2039,Storage & Distribution - Conditioned,54.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1205,2040,Storage & Distribution - Conditioned,50.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1206,2050,Storage & Distribution - Conditioned,50.0,Store & Dist Cond.,kWh/m²GIA/yr,retrofit-in-one-go
+1207,2025,Storage & Distribution - Cold Store,230.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go
+1208,2026,Storage & Distribution - Cold Store,221.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go
+1209,2027,Storage & Distribution - Cold Store,211.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go
+1210,2028,Storage & Distribution - Cold Store,201.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go
+1211,2029,Storage & Distribution - Cold Store,192.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go
+1212,2030,Storage & Distribution - Cold Store,182.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go
+1213,2031,Storage & Distribution - Cold Store,172.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go
+1214,2032,Storage & Distribution - Cold Store,163.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go
+1215,2033,Storage & Distribution - Cold Store,153.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go
+1216,2034,Storage & Distribution - Cold Store,143.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go
+1217,2035,Storage & Distribution - Cold Store,134.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go
+1218,2036,Storage & Distribution - Cold Store,124.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go
+1219,2037,Storage & Distribution - Cold Store,114.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go
+1220,2038,Storage & Distribution - Cold Store,105.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go
+1221,2039,Storage & Distribution - Cold Store,95.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go
+1222,2040,Storage & Distribution - Cold Store,85.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go
+1223,2050,Storage & Distribution - Cold Store,85.0,Store & Dist Cold,kWh/m²GIA/yr,retrofit-in-one-go

@@ -1,0 +1,46 @@
+---
+title: Data Models
+execute:
+  echo: false
+---
+
+```{python}
+
+from netzero_metrics.models import Area, EuiTarget, ProjectBuilding
+from pydantic import BaseModel
+from IPython.display import Markdown
+
+
+def pydantic_model_to_markdown(model: BaseModel)-> str:
+    def get_description(v): return v.description if v.description is not None else ""
+    cols = "- " + "- ".join([f"**{k}**: {v.annotation}, {get_description(v)}\n" for k, v in model.model_fields.items()])
+    text = f"""### {model.__name__} Columns
+
+{cols}"""
+    return text
+
+models = [ProjectBuilding, Area, EuiTarget]
+texts = [pydantic_model_to_markdown(model) for model in models]
+text = "\n\n".join(texts)
+Markdown(text)
+
+```
+
+TODO: add models for operational energy
+
+### Example Data
+```{python}
+
+#TODO: add raw data models and then show how they are merged
+from netzero_metrics.calcs import get_test_data
+_area, _bldg, area, eui_custom = get_test_data()
+import ipywidgets as w
+from ipydatagrid import DataGrid
+
+def grid(df): return DataGrid(df, auto_fit_columns=True, layout=w.Layout(height="200px"))
+
+w.Tab(
+    [grid(_area), grid(_bldg), grid(area), grid(eui_custom)],
+    titles=["_area", "_bldg", "area", "eui_custom"]
+)
+```

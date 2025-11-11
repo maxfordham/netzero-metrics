@@ -1,0 +1,6 @@
+BuildingId,TypeSpecId,InstanceReference,GrossInternalArea,BuildingType,IsNewBuild,Id,ConstructionMethod,BuildingName
+BLDG-1,2919,1,4595.0,Sport & Leisure - Dry,False,422,retrofit-in-one-go,Main Building
+BLDG-1,2919,2,1809.0,Sport & Leisure - Fitness,False,423,retrofit-in-one-go,Main Building
+BLDG-1,2919,3,3764.0,Sport & Leisure - Wet,False,424,retrofit-in-one-go,Main Building
+BLDG-1,2919,4,324.0,Storage & Distribution - Unconditioned,False,425,retrofit-in-one-go,Main Building
+BLDG-1,2919,5,911.0,Storage & Distribution - Unconditioned,False,426,retrofit-in-one-go,Main Building

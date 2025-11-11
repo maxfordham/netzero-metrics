@@ -1,0 +1,6 @@
+GrossInternalArea,BuildingType,ConstructionMethod,BuildingName
+10,Office - General,newbuild,A
+10,Office - General,retrofit-in-one-go,A
+20,Commercial Resi - Student Residential,newbuild,B
+20,Commercial Resi - Student Residential,retrofit-in-one-go,B
+20,Commercial Resi - Student Residential,retrofit-in-one-go,B
