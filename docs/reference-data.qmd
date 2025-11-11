@@ -1,0 +1,39 @@
+---
+title: "Reference Data"
+format:
+  html:
+    code-fold: true
+---
+
+The `netzero_metrics` package relies on data collated by [UK Net Zero Carbon Building Standard Pilot Version (Sept 2024), TableOE-1 & TableOE-2](https://www.nzcbuildings.co.uk/pilotversion).
+
+::: {.callout-warning}
+To enable comparison across types, currently the only metrics being consider are
+those measured in **Kwhr/m2(GIA)/yr**.
+:::
+
+## UKNZCB Energy Use Intensity Targets
+
+**Downloads**:
+
+- [⬇️ energy-use-intensity](data/energy-use-intensity.xlsx)
+- [⬇️ datapackage](data/energy-use-intensity.dp.zip)
+
+```{python}
+#| column: page
+from netzero_metrics.tables import render_eui_uknzcb_targets_pivot 
+render_eui_uknzcb_targets_pivot()
+```
+
+### UKNZCB Plot Energy Use Intensity Targets
+
+Plot Showing UKNZCB Energy Use Intensity Targets by building type reducing over time to 2050.
+
+```{python}
+from netzero_metrics.plots import plot_eui 
+plot_eui()
+```
+
+
+
+

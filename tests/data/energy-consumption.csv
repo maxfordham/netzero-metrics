@@ -1,0 +1,13 @@
+Project,Project Number,ReportingPeriod,FuelType,EnergyEndUse,EnergyEndUseTags,EnergyConsumption
+Catalyst Student Centre,6475,2022/23,Electricity,Heating,,22.2
+Catalyst Student Centre,6475,2022/23,Electricity,Cooling,,6.0
+Catalyst Student Centre,6475,2022/23,Electricity,Domestic Hot Water,,0.8
+Catalyst Student Centre,6475,2022/23,Electricity,Auxiliary,,19.4
+Catalyst Student Centre,6475,2022/23,Electricity,Lighting,,12.3
+Catalyst Student Centre,6475,2022/23,Electricity,Small Power,,31.4
+Catalyst Student Centre,6475,2022/23,Electricity,Catering,,20.3
+Catalyst Student Centre,6475,2022/23,Electricity,IT/Servers,"IT/Servers,Small Power",8.7
+Catalyst Student Centre,6475,2022/23,Electricity,IT/Servers,"IT/Server,Cooling",1.0
+Catalyst Student Centre,6475,2022/23,Electricity,Lighting,Lighting - External,0.3
+Catalyst Student Centre,6475,2022/23,Electricity,Lifts,,0.3
+Catalyst Student Centre,6475,2022/23,Electricity,PV Generation,,-18.2

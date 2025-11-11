@@ -1,0 +1,82 @@
+# models { #netzero_metrics.models }
+
+`models`
+
+
+
+## Classes
+
+| Name | Description |
+| --- | --- |
+| [Area](#netzero_metrics.models.Area) | Definition of a columns required for a dataframe of building use-type areas and target completion year. |
+| [BuildingTargetDataFrame](#netzero_metrics.models.BuildingTargetDataFrame) | definition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by `EuiTargetUknzcb` model. |
+| [EuiTarget](#netzero_metrics.models.EuiTarget) | data model for custom energy use intensities. For simplicity ignore the year column. |
+| [EuiTargetDataFrame](#netzero_metrics.models.EuiTargetDataFrame) | definition of a pandas dataframe of custom target project energy use intensities. Columns defined by `EuiTarget` model. |
+| [EuiTargetUknzcb](#netzero_metrics.models.EuiTargetUknzcb) | data model for UKNZCB energy use intensities. |
+| [EuiTargetUknzcbDataFrame](#netzero_metrics.models.EuiTargetUknzcbDataFrame) | definition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by `EuiTargetUknzcb` model. |
+| [ProjectBuilding](#netzero_metrics.models.ProjectBuilding) | Definition of a columns required for a dataframe of project buildings. |
+| [ProjectTargetDataFrame](#netzero_metrics.models.ProjectTargetDataFrame) | definition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by `EuiTargetUknzcb` model. |
+
+### Area { #netzero_metrics.models.Area }
+
+```python
+models.Area()
+```
+
+Definition of a columns required for a dataframe of building use-type areas and target completion year.
+
+### BuildingTargetDataFrame { #netzero_metrics.models.BuildingTargetDataFrame }
+
+```python
+models.BuildingTargetDataFrame()
+```
+
+definition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by `EuiTargetUknzcb` model.
+
+### EuiTarget { #netzero_metrics.models.EuiTarget }
+
+```python
+models.EuiTarget()
+```
+
+data model for custom energy use intensities. For simplicity ignore the year column.
+
+### EuiTargetDataFrame { #netzero_metrics.models.EuiTargetDataFrame }
+
+```python
+models.EuiTargetDataFrame()
+```
+
+definition of a pandas dataframe of custom target project energy use intensities. Columns defined by `EuiTarget` model.
+
+### EuiTargetUknzcb { #netzero_metrics.models.EuiTargetUknzcb }
+
+```python
+models.EuiTargetUknzcb()
+```
+
+data model for UKNZCB energy use intensities.
+
+### EuiTargetUknzcbDataFrame { #netzero_metrics.models.EuiTargetUknzcbDataFrame }
+
+```python
+models.EuiTargetUknzcbDataFrame()
+```
+
+definition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by `EuiTargetUknzcb` model.
+
+### ProjectBuilding { #netzero_metrics.models.ProjectBuilding }
+
+```python
+models.ProjectBuilding()
+```
+
+Definition of a columns required for a dataframe of project buildings.
+
+### ProjectTargetDataFrame { #netzero_metrics.models.ProjectTargetDataFrame }
+
+```python
+models.ProjectTargetDataFrame()
+```
+
+definition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by `EuiTargetUknzcb` model.

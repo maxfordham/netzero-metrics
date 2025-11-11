@@ -1,0 +1,251 @@
+# calcs { #netzero_metrics.calcs }
+
+`calcs`
+
+Calculations for Net Zero Energy Use Intensity targets.
+
+The same test data is used throughout the docs as follows:
+
+```{python}
+from netzero_metrics.calcs import get_test_data
+_area, _bldg, area, eui_custom = get_test_data()
+import ipywidgets as w
+from ipydatagrid import DataGrid
+
+def grid(df): return DataGrid(df, auto_fit_columns=True, layout=w.Layout(height="200px"))
+
+w.Tab(
+    [grid(_area), grid(_bldg), grid(area), grid(eui_custom)],
+    titles=["_area", "_bldg", "area", "eui_custom"]
+)
+```
+
+## Functions
+
+| Name | Description |
+| --- | --- |
+| [attach_target_year_to_area](#netzero_metrics.calcs.attach_target_year_to_area) | Attach building `TargetYear` onto area. |
+| [calc_area_weighted_target](#netzero_metrics.calcs.calc_area_weighted_target) | Return the weighted average target. |
+| [get_all_buildings_yearly_eui_uknzcb_targets](#netzero_metrics.calcs.get_all_buildings_yearly_eui_uknzcb_targets) | Return UK NZC targets for each year for all buildings. |
+| [get_area_and_target_summaries](#netzero_metrics.calcs.get_area_and_target_summaries) | Return area and target summaries. |
+| [get_area_summary](#netzero_metrics.calcs.get_area_summary) | Return the area summary for the project buildings. |
+| [get_area_weights](#netzero_metrics.calcs.get_area_weights) | Calculate the area weights of the project buildings for each area. |
+| [get_building_yearly_eui_uknzcb_targets](#netzero_metrics.calcs.get_building_yearly_eui_uknzcb_targets) | Return UK NZC targets for each year for a single building. |
+| [get_df_targets](#netzero_metrics.calcs.get_df_targets) | Return the DataFrame of targets. |
+| [get_eui_target](#netzero_metrics.calcs.get_eui_target) | Return the energy use target. |
+| [get_eui_targets](#netzero_metrics.calcs.get_eui_targets) | Return EUI targets for buildings and the project. |
+| [get_eui_uknzcb_targets_pivot](#netzero_metrics.calcs.get_eui_uknzcb_targets_pivot) | Return the pivoted EUI data for each construction method. |
+| [get_khwr_per_m2_gia_only](#netzero_metrics.calcs.get_khwr_per_m2_gia_only) | Return only the GIA targets from the EUI data. |
+| [get_project_area_weights](#netzero_metrics.calcs.get_project_area_weights) | Calculate the area weight for each project building. |
+| [get_project_eui_targets](#netzero_metrics.calcs.get_project_eui_targets) | Return the project EUI targets. Doesn't do any area weighting. |
+| [get_project_targets](#netzero_metrics.calcs.get_project_targets) | Return EUI targets for buildings and the project. |
+| [get_test_data](#netzero_metrics.calcs.get_test_data) | Return test data for the calculations. |
+| [pivot_eui_data_for_construction_delivery_type](#netzero_metrics.calcs.pivot_eui_data_for_construction_delivery_type) | Pivot the EUI data for a specific construction method. |
+
+### attach_target_year_to_area { #netzero_metrics.calcs.attach_target_year_to_area }
+
+```python
+calcs.attach_target_year_to_area(_area, _bldg)
+```
+
+Attach building `TargetYear` onto area.
+
+```{python}
+# docs display
+from netzero_metrics.calcs import attach_target_year_to_area, get_test_data
+_area, _bldg, area, eui_custom = get_test_data()
+import ipywidgets as w
+from ipydatagrid import DataGrid
+def grid(df): return DataGrid(df, auto_fit_columns=True, layout=w.Layout(height="200px"))
+
+area = attach_target_year_to_area(_area, _bldg)
+display(w.Tab([grid(_area), grid(_bldg), grid(area)], titles=["_area", "_bldg", "area"]))
+```
+
+```python
+# noqa: D100
+# pytest-examples
+from netzero_metrics.calcs import (
+    attach_target_year_to_area,
+    get_test_data,
+)
+
+_area, _bldg, area, eui_custom = get_test_data()
+area = attach_target_year_to_area(_area, _bldg)
+print(area.TargetYear.to_list())  # noqa: T201
+#> [2025, 2025, 2030, 2030, 2030]
+```
+
+### calc_area_weighted_target { #netzero_metrics.calcs.calc_area_weighted_target }
+
+```python
+calcs.calc_area_weighted_target(trgt, area)
+```
+
+Return the weighted average target.
+
+This is calculated by taking the summation of "the product of the area weights times the targets" divided by
+"the sum of the area weights". If all the area weights are same, weighted average is equivalent to the average.
+
+```python
+# noqa: D100
+import numpy as np
+from netzero_metrics.calcs import (
+    calc_area_weighted_target,
+)
+
+trgt = np.array([1, 2])
+area = np.array([1, 2])
+print(
+    calc_area_weighted_target(trgt, area)
+)  # noqa: T201
+#> 1.6666666666666665
+```
+
+### get_all_buildings_yearly_eui_uknzcb_targets { #netzero_metrics.calcs.get_all_buildings_yearly_eui_uknzcb_targets }
+
+```python
+calcs.get_all_buildings_yearly_eui_uknzcb_targets(area, eui_uknzcb)
+```
+
+Return UK NZC targets for each year for all buildings.
+
+### get_area_and_target_summaries { #netzero_metrics.calcs.get_area_and_target_summaries }
+
+```python
+calcs.get_area_and_target_summaries(
+    df_project_buildings,
+    df_area,
+    df_project_energy_targets,
+    df_eui=EUI_DATA,
+)
+```
+
+Return area and target summaries.
+
+### get_area_summary { #netzero_metrics.calcs.get_area_summary }
+
+```python
+calcs.get_area_summary(area)
+```
+
+Return the area summary for the project buildings.
+
+### get_area_weights { #netzero_metrics.calcs.get_area_weights }
+
+```python
+calcs.get_area_weights(df_area_summary)
+```
+
+Calculate the area weights of the project buildings for each area.
+
+### get_building_yearly_eui_uknzcb_targets { #netzero_metrics.calcs.get_building_yearly_eui_uknzcb_targets }
+
+```python
+calcs.get_building_yearly_eui_uknzcb_targets(area, eui_uknzcb)
+```
+
+Return UK NZC targets for each year for a single building.
+
+### get_df_targets { #netzero_metrics.calcs.get_df_targets }
+
+```python
+calcs.get_df_targets(di_targets)
+```
+
+Return the DataFrame of targets.
+
+### get_eui_target { #netzero_metrics.calcs.get_eui_target }
+
+```python
+calcs.get_eui_target(area, eui, *, filter_year=True)
+```
+
+Return the energy use target.
+
+When `filter_year` is True, the target is filtered by the year in the area DataFrame.
+
+### get_eui_targets { #netzero_metrics.calcs.get_eui_targets }
+
+```python
+calcs.get_eui_targets(area, eui, *, filter_year=True)
+```
+
+Return EUI targets for buildings and the project.
+
+When `filter_year` is True, the target is filtered by the year in the area DataFrame.
+
+### get_eui_uknzcb_targets_pivot { #netzero_metrics.calcs.get_eui_uknzcb_targets_pivot }
+
+```python
+calcs.get_eui_uknzcb_targets_pivot(eui)
+```
+
+Return the pivoted EUI data for each construction method.
+
+### get_khwr_per_m2_gia_only { #netzero_metrics.calcs.get_khwr_per_m2_gia_only }
+
+```python
+calcs.get_khwr_per_m2_gia_only(eui_uknzcb)
+```
+
+Return only the GIA targets from the EUI data.
+
+### get_project_area_weights { #netzero_metrics.calcs.get_project_area_weights }
+
+```python
+calcs.get_project_area_weights(df_area_summary)
+```
+
+Calculate the area weight for each project building.
+
+### get_project_eui_targets { #netzero_metrics.calcs.get_project_eui_targets }
+
+```python
+calcs.get_project_eui_targets(area, eui, *, filter_year=True)
+```
+
+Return the project EUI targets. Doesn't do any area weighting.
+
+Filters the UKNZBC data to get only the targets relevant to the `areas` in project.
+
+```python
+# noqa: D100
+# pytest-examples
+from netzero_metrics.calcs import (
+    attach_target_year_to_area,
+    get_test_data,
+)
+
+_area, _bldg, area, eui_custom = get_test_data()
+area = attach_target_year_to_area(_area, _bldg)
+print(area.TargetYear.to_list())  # noqa: T201
+#> [2025, 2025, 2030, 2030, 2030]
+```
+
+### get_project_targets { #netzero_metrics.calcs.get_project_targets }
+
+```python
+calcs.get_project_targets(area, eui_uknzcb, eui_custom)
+```
+
+Return EUI targets for buildings and the project.
+
+### get_test_data { #netzero_metrics.calcs.get_test_data }
+
+```python
+calcs.get_test_data()
+```
+
+Return test data for the calculations.
+
+### pivot_eui_data_for_construction_delivery_type { #netzero_metrics.calcs.pivot_eui_data_for_construction_delivery_type }
+
+```python
+calcs.pivot_eui_data_for_construction_delivery_type(
+    eui,
+    construction_delivery_type,
+)
+```
+
+Pivot the EUI data for a specific construction method.

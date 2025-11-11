@@ -1,0 +1,31 @@
+---
+title: netzero-metrics
+execute:
+  echo: false
+---
+
+A python package for analysing the performance of a Construction Project compared to {{< var UKNZCB-link >}}.
+
+:::{.callout-caution}
+Currently the scope of this package is limited to Operational Energy Targets defined by UKNZCB based on end use areas only.
+The intention is that over-time other UKNZCB metrics will be added.
+:::
+
+Whilst the intention is that the package will evolve to be able to report on all the metrics defined in the
+UKNZCB Standard, it is currently only considering Operational Energy Targets. This requires the tracking
+of the following data:
+
+- [x] project buildings, areas and end-types
+- [x] in-use operational energy usage
+- [x] predicted operational energy usage
+  - Note: this cannot demonstrate compliance with the UKNZCB guide it is valuable to track during the design stage
+- [x] custom targets where applicable
+- [ ] embodied carbon targets
+- [ ] demand management targets
+
+
+```{python}
+from netzero_metrics.plots import plot_eui 
+plot_eui()
+```
+

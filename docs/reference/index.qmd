@@ -1,0 +1,8 @@
+# Function reference {.doc .doc-index}
+
+## Some functions
+
+| | |
+| --- | --- |
+| [calcs](calcs.qmd#netzero_metrics.calcs) | Calculations for Net Zero Energy Use Intensity targets. |
+| [models](models.qmd#netzero_metrics.models) |  |
