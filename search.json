@@ -1,0 +1,199 @@
+[
+  {
+    "objectID": "demo-outputs.html",
+    "href": "demo-outputs.html",
+    "title": "Demo Outputs",
+    "section": "",
+    "text": "Code\nfrom netzero_metrics.calcs import get_area_and_target_summaries\nfrom netzero_metrics.tables import plot_great_tables_targets\nimport mdpd\n\ndf_all_building_targets = mdpd.from_md(\"\"\"\n|    | TargetName      | BuildingName   |   Target |\n|---:|:----------------|:---------------|---------:|\n|  0 | UK NZC Standard | Block A        | 137.3    |\n|  1 | ambitious!     | Block A        |  40.0701 |\n|  2 | UK NZC Standard | Block B        | 251.333  |\n|  3 | ambitious!     | Block B        |  65.3333 |\n\"\"\")\n\ndf_all_project_targets = mdpd.from_md(\"\"\"\n|    | TargetName      |   ProjectTarget |\n|---:|:----------------|----------------:|\n|  0 | UK NZC Standard |         165.526 |\n|  1 | ambitious!     |          43.837 |\n\"\"\")\n\nch = plot_great_tables_targets(df_all_building_targets, df_all_project_targets)\ndisplay(ch)\n\n\n\n\n\n\n\n\nProject Building Targets\n\n\nSummary of Project Building Targets\n\n\nTarget Name\nTarget (kWh/m²/yr) \n\n\nBlock A\nBlock B\nProject\n\n\n\n\nUK NZC Standard\n137.3\n251.333\n165.526\n\n\nambitious!\n40.0701\n65.3333\n43.837\n\n\n\n\n\n\n        \n\n\n\n\nCode\nimport mdpd\nfrom netzero_metrics.tables import (\n    plot_great_tables_area_summary,\n)\n\narea = mdpd.from_md(\"\"\"\n|    | BuildingId   |   GrossInternalArea | BuildingType                          | ConstructionMethod   | BuildingName   |   TargetYear |\n|---:|:-------------|--------------------:|:--------------------------------------|:---------------------------|:---------------|-------------:|\n|  0 | BLDG-1       |                  50 | Office - General                      | newbuild                   | Block A        |         2025 |\n|  1 | BLDG-1       |                 300 | Commercial Resi - Student Residential | retrofit-in-one-go         | Block A        |         2025 |\n|  2 | BLDG-2       |                  50 | Hotel                                 | newbuild                   | Block B        |         2030 |\n|  3 | BLDG-1       |                  50 | Office - Trading Floors               | newbuild                   | Block A        |         2025 |\n|  4 | BLDG-1       |                   3 | Office - General                      | newbuild                   | Block A        |         2025 |\n|  5 | BLDG-2       |                 100 | Hotel                                 | retrofit-in-one-go         | Block B        |         2030 |\n|  6 | BLDG-1       |                 400 | Healthcare                            | retrofit-in-one-go         | Block A        |         2025 |\n\"\"\")\narea[\"GrossInternalArea\"] = area[\"GrossInternalArea\"].astype(float)\nch = plot_great_tables_area_summary(\n    area,\n)\ndisplay(ch)\n\n\n\n\n\n\n\n\nProject Building Areas\n\n\nSummary of Project Buildings Building Use Type and Construction Method\n\n\nCategorisation\nGIA (m²) \n\n\nBuilding Type\nConstruction Method\nBlock A\nBlock B\nTotal\n\n\n\n\nCommercial Resi - Student Residential\nretrofit-in-one-go\n300.0\n0.0\n300.0\n\n\nHealthcare\nretrofit-in-one-go\n400.0\n0.0\n400.0\n\n\nHotel\nnewbuild\n0.0\n50.0\n50.0\n\n\nHotel\nretrofit-in-one-go\n0.0\n100.0\n100.0\n\n\nOffice - General\nnewbuild\n53.0\n0.0\n53.0\n\n\nOffice - Trading Floors\nnewbuild\n50.0\n0.0\n50.0\n\n\nTotal\n\n803.0\n150.0\n953.0\n\n\n\n\n\n\n        \n\n\n\n\nCode\nimport pathlib\nimport pandas as pd\nimport mdpd\nfrom netzero_metrics.constants import nzdata\nfrom netzero_metrics.calcs import (\n    attach_target_year_to_area,\n    get_area_and_target_summaries,\n)\nfrom netzero_metrics.plots import plot_building_targets\nfrom netzero_metrics import fdir_pkg\n \nfdir_data = fdir_pkg.parent.parent / \"tests\" / \"data\"\nfdir_output = fdir_pkg.parent.parent  / \"tests\"  / \"outputs\"\n\n_area = pd.read_csv((fdir_data / \"areas.csv\"))\n_bldg = pd.read_csv((fdir_data / \"bldgs.csv\"))\narea = attach_target_year_to_area(_area, _bldg)\n\neui_uknzcb = nzdata.energy_use_intensity\neui_custom = pd.read_csv((fdir_data / \"eui-custom.csv\"))\n\n\n(\n    df_area_summary,\n    di_area_weights,\n    di_project_area_weights,\n    df_nzc_standard_building_year_targets,\n    df_all_building_targets,\n    df_all_project_targets,\n) = get_area_and_target_summaries(_bldg, _area, eui_custom, eui_uknzcb)\nplot_building_targets(\n    df_nzc_standard_building_year_targets,\n    df_all_building_targets,\n    df_all_project_targets,\n)\n\n\n\n\n\n\n\n\n\n\nCode\nimport pandas as pd\nfrom IPython.display import display\nfrom netzero_metrics.plots import (\n    plot_energy_consumption,\n)\ndf = pd.DataFrame([\n    {\n       'FuelType': 'Electricity',\n       'EnergyConsumption': 100.0,\n       'ReportingPeriod': '2019/20',\n       'EnergyEndUse': 'Heating',\n       'EnergyEndUseTags': '[]',\n   },\n   {\n       'FuelType': 'Electricity',\n       'EnergyConsumption': 50.0,\n       'ReportingPeriod': '2019/20',\n       'EnergyEndUse': 'Cooling',\n       'EnergyEndUseTags': '[]',\n   },\n])\nplot = plot_energy_consumption(df)\ndisplay(plot)"
+  },
+  {
+    "objectID": "app-user-guide.html",
+    "href": "app-user-guide.html",
+    "title": "App User Guide",
+    "section": "",
+    "text": "Warning\n\n\n\nYou must be connected to the Max Fordham internal engineering Toolbox to use the netzero-metrics app.\nThe netzero-metrics app allows the Practice and a Project to track the buildings performance compared to the Net Zero Carbon Buildings Standard. Each tab in the app represents an opportunity to add data and recieve metrics. The information input into the app is summarised in the Project Summary page that the app launches on."
+  },
+  {
+    "objectID": "app-user-guide.html#launch-netzero-metrics-app",
+    "href": "app-user-guide.html#launch-netzero-metrics-app",
+    "title": "App User Guide",
+    "section": "Launch netzero-metrics App",
+    "text": "Launch netzero-metrics App"
+  },
+  {
+    "objectID": "app-user-guide.html#select-your-project",
+    "href": "app-user-guide.html#select-your-project",
+    "title": "App User Guide",
+    "section": "Select your Project",
+    "text": "Select your Project"
+  },
+  {
+    "objectID": "app-user-guide.html#add-project-buildings-and-use-type-areas",
+    "href": "app-user-guide.html#add-project-buildings-and-use-type-areas",
+    "title": "App User Guide",
+    "section": "Add Project Buildings and Use Type Areas",
+    "text": "Add Project Buildings and Use Type Areas\n\nThis is the main input for the calculation of the UKNZCBs target. By inputting how much area is assigned to what type of architectual / functional end-use, the app can perform an area weighted target calculation for your project and give a project Target Operational Energy."
+  },
+  {
+    "objectID": "app-user-guide.html#add-custom-project-targets-if-required",
+    "href": "app-user-guide.html#add-custom-project-targets-if-required",
+    "title": "App User Guide",
+    "section": "Add Custom Project Targets (if required)",
+    "text": "Add Custom Project Targets (if required)\n\nThe UKNZCB standard recommends targets based on the building types and areas in the project. On review of the project and client aspirations the project team may wish recommending a slightly different target. This tab allows Engineers / Consultants to suggest different project targets. These is plotted next to UKNZCB target to ensure that context is included.\nUse “Global Energy Target” if you wish to apply the same target to all Building Types in the project, or set custom targets for each building type."
+  },
+  {
+    "objectID": "app-user-guide.html#predicted-operational-energy",
+    "href": "app-user-guide.html#predicted-operational-energy",
+    "title": "App User Guide",
+    "section": "Predicted Operational Energy",
+    "text": "Predicted Operational Energy\n\nAdd the predicted operational energy use for your project. Entries may be granular, rows will automatically be summed and presented by “Energy End Use” for a given “Operational Energy Analysis Type”."
+  },
+  {
+    "objectID": "app-user-guide.html#in-use-operational-energy",
+    "href": "app-user-guide.html#in-use-operational-energy",
+    "title": "App User Guide",
+    "section": "In-Use Operational Energy",
+    "text": "In-Use Operational Energy\n\nComplete the data in the same way as the “Predicted Operational Energy” tab but it summarises the data by “Reporting Period” rather than “Operational Energy Analysis Type”. To reiterate, if you are collecting the data from many sources you can input the raw data with as many rows as you like and it will automatically sum rows with the same “Energy End Use” and “Reporting Period”.\n“Energy End Use Tags” should be generally ignored but exists in case you need to document secondary “Energy End Use” loads."
+  },
+  {
+    "objectID": "reference/models.html",
+    "href": "reference/models.html",
+    "title": "models",
+    "section": "",
+    "text": "models\npydantic data models for netzero-metrics package.\n\n\n\n\n\nName\nDescription\n\n\n\n\nArea\nDefinition of a columns required for a dataframe of building use-type areas and target completion year.\n\n\nBuildingTargetDataFrame\ndefinition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by EuiTargetUknzcb model.\n\n\nEuiTarget\ndata model for custom energy use intensities. For simplicity ignore the year column.\n\n\nEuiTargetDataFrame\ndefinition of a pandas dataframe of custom target project energy use intensities. Columns defined by EuiTarget model.\n\n\nEuiTargetUknzcb\ndata model for UKNZCB energy use intensities.\n\n\nEuiTargetUknzcbDataFrame\ndefinition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by EuiTargetUknzcb model.\n\n\nProjectBuilding\nDefinition of a columns required for a dataframe of project buildings.\n\n\nProjectTargetDataFrame\ndefinition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by EuiTargetUknzcb model.\n\n\n\n\n\nmodels.Area()\nDefinition of a columns required for a dataframe of building use-type areas and target completion year.\n\n\n\nmodels.BuildingTargetDataFrame()\ndefinition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by EuiTargetUknzcb model.\n\n\n\nmodels.EuiTarget()\ndata model for custom energy use intensities. For simplicity ignore the year column.\n\n\n\nmodels.EuiTargetDataFrame()\ndefinition of a pandas dataframe of custom target project energy use intensities. Columns defined by EuiTarget model.\n\n\n\nmodels.EuiTargetUknzcb()\ndata model for UKNZCB energy use intensities.\n\n\n\nmodels.EuiTargetUknzcbDataFrame()\ndefinition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by EuiTargetUknzcb model.\n\n\n\nmodels.ProjectBuilding()\nDefinition of a columns required for a dataframe of project buildings.\n\n\n\nmodels.ProjectTargetDataFrame()\ndefinition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by EuiTargetUknzcb model."
+  },
+  {
+    "objectID": "reference/models.html#classes",
+    "href": "reference/models.html#classes",
+    "title": "models",
+    "section": "",
+    "text": "Name\nDescription\n\n\n\n\nArea\nDefinition of a columns required for a dataframe of building use-type areas and target completion year.\n\n\nBuildingTargetDataFrame\ndefinition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by EuiTargetUknzcb model.\n\n\nEuiTarget\ndata model for custom energy use intensities. For simplicity ignore the year column.\n\n\nEuiTargetDataFrame\ndefinition of a pandas dataframe of custom target project energy use intensities. Columns defined by EuiTarget model.\n\n\nEuiTargetUknzcb\ndata model for UKNZCB energy use intensities.\n\n\nEuiTargetUknzcbDataFrame\ndefinition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by EuiTargetUknzcb model.\n\n\nProjectBuilding\nDefinition of a columns required for a dataframe of project buildings.\n\n\nProjectTargetDataFrame\ndefinition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by EuiTargetUknzcb model.\n\n\n\n\n\nmodels.Area()\nDefinition of a columns required for a dataframe of building use-type areas and target completion year.\n\n\n\nmodels.BuildingTargetDataFrame()\ndefinition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by EuiTargetUknzcb model.\n\n\n\nmodels.EuiTarget()\ndata model for custom energy use intensities. For simplicity ignore the year column.\n\n\n\nmodels.EuiTargetDataFrame()\ndefinition of a pandas dataframe of custom target project energy use intensities. Columns defined by EuiTarget model.\n\n\n\nmodels.EuiTargetUknzcb()\ndata model for UKNZCB energy use intensities.\n\n\n\nmodels.EuiTargetUknzcbDataFrame()\ndefinition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by EuiTargetUknzcb model.\n\n\n\nmodels.ProjectBuilding()\nDefinition of a columns required for a dataframe of project buildings.\n\n\n\nmodels.ProjectTargetDataFrame()\ndefinition of a pandas dataframe of UKNZCB energy use intensities. Columns defined by EuiTargetUknzcb model."
+  },
+  {
+    "objectID": "reference-data.html",
+    "href": "reference-data.html",
+    "title": "Reference Data",
+    "section": "",
+    "text": "The netzero_metrics package relies on data collated by UK Net Zero Carbon Building Standard Pilot Version (Sept 2024), TableOE-1 & TableOE-2."
+  },
+  {
+    "objectID": "reference-data.html#uknzcb-energy-use-intensity-targets",
+    "href": "reference-data.html#uknzcb-energy-use-intensity-targets",
+    "title": "Reference Data",
+    "section": "UKNZCB Energy Use Intensity Targets",
+    "text": "UKNZCB Energy Use Intensity Targets\nData:\n\n⬇️ energy-use-intensity\n🔗 netzero-metrics-reference-data\n\n\nRaw Data\n\n\nCode\nfrom netzero_metrics.tables import render_eui_uknzcb_targets_pivot \nrender_eui_uknzcb_targets_pivot()\n\n\n\n\n\n\n\nPlot Targets\nPlot Showing UKNZCB Energy Use Intensity Targets by building type reducing over time to 2050.\n\n\nCode\nfrom netzero_metrics.plots import plot_eui \nplot_eui()"
+  },
+  {
+    "objectID": "reference-data.html#reference-colours-for-energy-end-use",
+    "href": "reference-data.html#reference-colours-for-energy-end-use",
+    "title": "Reference Data",
+    "section": "Reference Colours for Energy End Use",
+    "text": "Reference Colours for Energy End Use\n\n\nCode\nfrom netzero_metrics.tables import render_color_energy_end_use_table\n\nrender_color_energy_end_use_table()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "netzero-metrics",
+    "section": "",
+    "text": "A python package for analysing the performance of a Construction Project compared to UK Net Zero Carbon Building Standard Pilot Version (Sept 2024).\n\n\n\n\n\n\nCaution\n\n\n\nCurrently the scope of this package is limited to Operational Energy Targets defined by UKNZCB based on end use areas only. The intention is that over-time other UKNZCB metrics will be added.\n\n\nWhilst the intention is that the package will evolve to be able to report on all the metrics defined in the UKNZCB Standard, it is currently only considering Operational Energy Targets. This requires the tracking of the following data:\n\nproject buildings, areas and end-types\nin-use operational energy usage\npredicted operational energy usage\n\nNote: this cannot demonstrate compliance with the UKNZCB guide it is valuable to track during the design stage\n\ncustom targets where applicable\nembodied carbon targets\ndemand management targets\n…"
+  },
+  {
+    "objectID": "examples/mixed-use.html",
+    "href": "examples/mixed-use.html",
+    "title": "mixed-use",
+    "section": "",
+    "text": "TBC",
+    "crumbs": [
+      "Examples",
+      "mixed-use"
+    ]
+  },
+  {
+    "objectID": "examples/index.html",
+    "href": "examples/index.html",
+    "title": "simple-building",
+    "section": "",
+    "text": "TBC",
+    "crumbs": [
+      "Examples",
+      "simple-building"
+    ]
+  },
+  {
+    "objectID": "models.html",
+    "href": "models.html",
+    "title": "Data Models",
+    "section": "",
+    "text": "ProjectBuilding Columns\n\nBuildingId: &lt;class ‘str’&gt;, Unique identifier for the building, e.g. ‘BLDG1’.\nBuildingName: &lt;class ‘str’&gt;, Descriptive name for the building, e.g. ‘Block A’.\nTargetYear: &lt;class ‘int’&gt;, Target year for the building, e.g. 2030.\n\n\n\nArea Columns\n\nBuildingId: &lt;class ‘str’&gt;, Unique identifier for the building, e.g. ‘BLDG1’.\nBuildingName: &lt;class ‘str’&gt;, Descriptive name for the building, e.g. ‘Block A’.\nGrossInternalArea: &lt;class ‘float’&gt;, Unique identifier for the building, e.g. ‘Block A’.\nBuildingType: &lt;class ‘str’&gt;,\nConstructionMethod: &lt;class ‘str’&gt;,\nTargetYear: &lt;class ‘int’&gt;,\n\n\n\nEuiTarget Columns\n\nTarget: &lt;class ‘float’&gt;,\nTargetName: &lt;class ‘str’&gt;,\nBuildingName: &lt;class ‘str’&gt;,\nConstructionMethod: &lt;class ‘str’&gt;,\n\n\n\n\nTODO: add models for operational energy\n\nExample Data"
+  },
+  {
+    "objectID": "reference/index.html",
+    "href": "reference/index.html",
+    "title": "Function reference",
+    "section": "",
+    "text": "calcs\nCalculations for Net Zero Energy Use Intensity targets.\n\n\nmodels\npydantic data models for netzero-metrics package."
+  },
+  {
+    "objectID": "reference/index.html#some-functions",
+    "href": "reference/index.html#some-functions",
+    "title": "Function reference",
+    "section": "",
+    "text": "calcs\nCalculations for Net Zero Energy Use Intensity targets.\n\n\nmodels\npydantic data models for netzero-metrics package."
+  },
+  {
+    "objectID": "reference/calcs.html",
+    "href": "reference/calcs.html",
+    "title": "calcs",
+    "section": "",
+    "text": "calcs\nCalculations for Net Zero Energy Use Intensity targets.\nThe same test data is used throughout the docs as follows:\nfrom netzero_metrics.calcs import get_test_data\n_area, _bldg, area, eui_custom = get_test_data()\nimport ipywidgets as w\nfrom ipydatagrid import DataGrid\n\ndef grid(df): return DataGrid(df, auto_fit_columns=True, layout=w.Layout(height=\"200px\"))\n\nw.Tab(\n    [grid(_area), grid(_bldg), grid(area), grid(eui_custom)],\n    titles=[\"_area\", \"_bldg\", \"area\", \"eui_custom\"]\n)"
+  },
+  {
+    "objectID": "reference/calcs.html#functions",
+    "href": "reference/calcs.html#functions",
+    "title": "calcs",
+    "section": "Functions",
+    "text": "Functions\n\n\n\nName\nDescription\n\n\n\n\nattach_target_year_to_area\nAttach building TargetYear onto area.\n\n\ncalc_area_weighted_target\nReturn the weighted average target.\n\n\nget_all_buildings_yearly_eui_uknzcb_targets\nReturn UK NZC targets for each year for all buildings.\n\n\nget_area_and_target_summaries\nReturn area and target summaries.\n\n\nget_area_summary\nReturn the area summary for the project buildings.\n\n\nget_area_weights\nCalculate the area weights of the project buildings for each area.\n\n\nget_building_yearly_eui_uknzcb_targets\nReturn UK NZC targets for each year for a single building.\n\n\nget_df_targets\nReturn the DataFrame of targets.\n\n\nget_eui_target\nReturn the energy use target.\n\n\nget_eui_targets\nReturn EUI targets for buildings and the project.\n\n\nget_eui_uknzcb_targets_pivot\nReturn the pivoted EUI data for each construction method.\n\n\nget_khwr_per_m2_gia_only\nReturn only the GIA targets from the EUI data.\n\n\nget_project_area_weights\nCalculate the area weight for each project building.\n\n\nget_project_eui_targets\nReturn the project EUI targets. Doesn’t do any area weighting.\n\n\nget_project_targets\nReturn EUI targets for buildings and the project.\n\n\nget_test_data\nReturn test data for the calculations.\n\n\npivot_eui_data_for_construction_delivery_type\nPivot the EUI data for a specific construction method.\n\n\n\n\nattach_target_year_to_area\ncalcs.attach_target_year_to_area(_area, _bldg)\nAttach building TargetYear onto area.\n\n# docs display\nfrom netzero_metrics.calcs import attach_target_year_to_area, get_test_data\n_area, _bldg, area, eui_custom = get_test_data()\nimport ipywidgets as w\nfrom ipydatagrid import DataGrid\ndef grid(df): return DataGrid(df, auto_fit_columns=True, layout=w.Layout(height=\"200px\"))\n\narea = attach_target_year_to_area(_area, _bldg)\ndisplay(w.Tab([grid(_area), grid(_bldg), grid(area)], titles=[\"_area\", \"_bldg\", \"area\"]))\n\n\n\n\n# noqa: D100\n# pytest-examples\nfrom netzero_metrics.calcs import (\n    attach_target_year_to_area,\n    get_test_data,\n)\n\n_area, _bldg, area, eui_custom = get_test_data()\narea = attach_target_year_to_area(_area, _bldg)\nprint(area.TargetYear.to_list())  # noqa: T201\n#&gt; [2025, 2025, 2030, 2030, 2030]\n\n\ncalc_area_weighted_target\ncalcs.calc_area_weighted_target(trgt, area)\nReturn the weighted average target.\nThis is calculated by taking the summation of “the product of the area weights times the targets” divided by “the sum of the area weights”. If all the area weights are same, weighted average is equivalent to the average.\n# noqa: D100\nimport numpy as np\nfrom netzero_metrics.calcs import (\n    calc_area_weighted_target,\n)\n\ntrgt = np.array([1, 2])\narea = np.array([1, 2])\nprint(\n    calc_area_weighted_target(trgt, area)\n)  # noqa: T201\n#&gt; 1.6666666666666665\n\n\nget_all_buildings_yearly_eui_uknzcb_targets\ncalcs.get_all_buildings_yearly_eui_uknzcb_targets(area, eui_uknzcb)\nReturn UK NZC targets for each year for all buildings.\n\n\nget_area_and_target_summaries\ncalcs.get_area_and_target_summaries(\n    df_project_buildings,\n    df_area,\n    df_project_energy_targets,\n    df_eui=EUI_DATA,\n)\nReturn area and target summaries.\n\n\nget_area_summary\ncalcs.get_area_summary(area)\nReturn the area summary for the project buildings.\n\n\nget_area_weights\ncalcs.get_area_weights(df_area_summary)\nCalculate the area weights of the project buildings for each area.\n\n\nget_building_yearly_eui_uknzcb_targets\ncalcs.get_building_yearly_eui_uknzcb_targets(area, eui_uknzcb)\nReturn UK NZC targets for each year for a single building.\n\n\nget_df_targets\ncalcs.get_df_targets(di_targets)\nReturn the DataFrame of targets.\n\n\nget_eui_target\ncalcs.get_eui_target(area, eui, *, filter_year=True)\nReturn the energy use target.\nWhen filter_year is True, the target is filtered by the year in the area DataFrame.\n\n\nget_eui_targets\ncalcs.get_eui_targets(area, eui, *, filter_year=True)\nReturn EUI targets for buildings and the project.\nWhen filter_year is True, the target is filtered by the year in the area DataFrame.\n\n\nget_eui_uknzcb_targets_pivot\ncalcs.get_eui_uknzcb_targets_pivot(eui)\nReturn the pivoted EUI data for each construction method.\n\n\nget_khwr_per_m2_gia_only\ncalcs.get_khwr_per_m2_gia_only(eui_uknzcb)\nReturn only the GIA targets from the EUI data.\n\n\nget_project_area_weights\ncalcs.get_project_area_weights(df_area_summary)\nCalculate the area weight for each project building.\n\n\nget_project_eui_targets\ncalcs.get_project_eui_targets(area, eui, *, filter_year=True)\nReturn the project EUI targets. Doesn’t do any area weighting.\nFilters the UKNZBC data to get only the targets relevant to the areas in project.\n# noqa: D100\n# pytest-examples\nfrom netzero_metrics.calcs import (\n    attach_target_year_to_area,\n    get_test_data,\n)\n\n_area, _bldg, area, eui_custom = get_test_data()\narea = attach_target_year_to_area(_area, _bldg)\nprint(area.TargetYear.to_list())  # noqa: T201\n#&gt; [2025, 2025, 2030, 2030, 2030]\n\n\nget_project_targets\ncalcs.get_project_targets(area, eui_uknzcb, eui_custom)\nReturn EUI targets for buildings and the project.\n\n\nget_test_data\ncalcs.get_test_data()\nReturn test data for the calculations.\n\n\npivot_eui_data_for_construction_delivery_type\ncalcs.pivot_eui_data_for_construction_delivery_type(\n    eui,\n    construction_delivery_type,\n)\nPivot the EUI data for a specific construction method."
+  },
+  {
+    "objectID": "examples.html",
+    "href": "examples.html",
+    "title": "Examples for Testing and Comprehension",
+    "section": "",
+    "text": "import numpy as np\nfrom netzero_metrics.calcs import calc_area_weighted_target\n\ntrgt = np.array([10, 20, 30])\narea = np.array([1, 2, 3])\nprint(calc_area_weighted_target(trgt, area))\n#&gt; 23.333333333333332\n\n\n\nimport mdpd\n\nareas = mdpd.from_md(\n    \"\"\"\n|   GrossInternalArea | BuildingType                          | ConstructionMethod   | BuildingName   |\n|--------------------:|:--------------------------------------|:---------------------------|:---------------|\n|                  10 | Office - General                      | newbuild                   | A              |\n|                  10 | Office - General                      | retrofit-in-one-go         | A              |\n|                  20 | Commercial Resi - Student Residential | newbuild                   | B              |\n|                  20 | Commercial Resi - Student Residential | retrofit-in-one-go         | B              |\n\"\"\"\n)\nprint(areas[\"GrossInternalArea\"].dtype)\n#&gt; object\n\n\n\nareas[\"GrossInternalArea\"] = areas[\"GrossInternalArea\"].astype(int)\nprint(areas[\"GrossInternalArea\"].dtype)\n#&gt; int64\n\n\n\nfrom netzero_metrics.calcs import (\n    get_area_and_target_summaries,\n)\nfrom netzero_metrics.tables import plot_great_tables_targets\nimport mdpd\n\ndf_all_building_targets = mdpd.from_md(\"\"\"\n|    | TargetName      | BuildingName   |   Target |\n|---:|:----------------|:---------------|---------:|\n|  0 | UK NZC Standard | Block A        | 137.3    |\n|  1 | ambitious!      | Block A        |  40.0701 |\n|  2 | UK NZC Standard | Block B        | 251.333  |\n|  3 | ambitious!      | Block B        |  65.3333 |\n\"\"\")\n\ndf_all_project_targets = mdpd.from_md(\"\"\"\n|    | TargetName      |   ProjectTarget |\n|---:|:----------------|----------------:|\n|  0 | UK NZC Standard |         165.526 |\n|  1 | ambitious!     |          43.837 |\n\"\"\")\n\nch = plot_great_tables_targets(df_all_building_targets, df_all_project_targets)\nprint(ch._tbl_data.to_pandas().to_markdown())\n\"\"\"\n|    | TargetName      |   Block A |   Block B |   Project |\n|---:|:----------------|----------:|----------:|----------:|\n|  0 | UK NZC Standard |  137.3    |  251.333  |   165.526 |\n|  1 | ambitious!      |   40.0701 |   65.3333 |    43.837 |\n\"\"\"\n\n\n\nimport mdpd\nfrom netzero_metrics.tables import (\n    plot_great_tables_area_summary,\n)\n\narea = mdpd.from_md(\"\"\"\n|    | BuildingId   |   GrossInternalArea | BuildingType                          | ConstructionMethod   | BuildingName   |   TargetYear |\n|---:|:-------------|--------------------:|:--------------------------------------|:---------------------------|:---------------|-------------:|\n|  0 | BLDG-1       |                  50 | Office - General                      | newbuild                   | Block A        |         2025 |\n|  1 | BLDG-1       |                 300 | Commercial Resi - Student Residential | retrofit-in-one-go         | Block A        |         2025 |\n|  2 | BLDG-2       |                  50 | Hotel                                 | newbuild                   | Block B        |         2030 |\n|  3 | BLDG-1       |                  50 | Office - Trading Floors               | newbuild                   | Block A        |         2025 |\n|  4 | BLDG-1       |                   3 | Office - General                      | newbuild                   | Block A        |         2025 |\n|  5 | BLDG-2       |                 100 | Hotel                                 | retrofit-in-one-go         | Block B        |         2030 |\n|  6 | BLDG-1       |                 400 | Healthcare                            | retrofit-in-one-go         | Block A        |         2025 |\n\"\"\"\n)\narea[\"GrossInternalArea\"] = area[\"GrossInternalArea\"].astype(float)\nch = plot_great_tables_area_summary(\n    area,\n)\nprint(ch._tbl_data.to_pandas().to_markdown())\n\"\"\"\n|    | BuildingType                          | ConstructionMethod   |   Block A |   Block B |   Total |\n|---:|:--------------------------------------|:---------------------|----------:|----------:|--------:|\n|  0 | Commercial Resi - Student Residential | retrofit-in-one-go   |       300 |         0 |     300 |\n|  1 | Healthcare                            | retrofit-in-one-go   |       400 |         0 |     400 |\n|  2 | Hotel                                 | newbuild             |         0 |        50 |      50 |\n|  3 | Hotel                                 | retrofit-in-one-go   |         0 |       100 |     100 |\n|  4 | Office - General                      | newbuild             |        53 |         0 |      53 |\n|  5 | Office - Trading Floors               | newbuild             |        50 |         0 |      50 |\n|  6 | Total                                 |                      |       803 |       150 |     953 |\n\"\"\"\n\n\n\nimport pandas as pd\nfrom IPython.display import display\nfrom netzero_metrics.plots import (\n    plot_energy_consumption,\n)\ndf = pd.DataFrame([\n    {\n       'FuelType': 'Electricity',\n       'EnergyConsumption': 100.0,\n       'ReportingPeriod': '2019/20',\n       'EnergyEndUse': 'Heating',\n       'EnergyEndUseTags': '[]',\n   },\n   {\n       'FuelType': 'Electricity',\n       'EnergyConsumption': 50.0,\n       'ReportingPeriod': '2019/20',\n       'EnergyEndUse': 'Cooling',\n       'EnergyEndUseTags': '[]',\n   },\n])\nplot = plot_energy_consumption(df)\ndisplay(plot)\nprint(plot)\n#&gt; alt.Chart(...)"
+  },
+  {
+    "objectID": "examples.html#calc_area_weighted_target",
+    "href": "examples.html#calc_area_weighted_target",
+    "title": "Examples for Testing and Comprehension",
+    "section": "",
+    "text": "import numpy as np\nfrom netzero_metrics.calcs import calc_area_weighted_target\n\ntrgt = np.array([10, 20, 30])\narea = np.array([1, 2, 3])\nprint(calc_area_weighted_target(trgt, area))\n#&gt; 23.333333333333332"
+  },
+  {
+    "objectID": "examples.html#mdpd-50",
+    "href": "examples.html#mdpd-50",
+    "title": "Examples for Testing and Comprehension",
+    "section": "",
+    "text": "import mdpd\n\nareas = mdpd.from_md(\n    \"\"\"\n|   GrossInternalArea | BuildingType                          | ConstructionMethod   | BuildingName   |\n|--------------------:|:--------------------------------------|:---------------------------|:---------------|\n|                  10 | Office - General                      | newbuild                   | A              |\n|                  10 | Office - General                      | retrofit-in-one-go         | A              |\n|                  20 | Commercial Resi - Student Residential | newbuild                   | B              |\n|                  20 | Commercial Resi - Student Residential | retrofit-in-one-go         | B              |\n\"\"\"\n)\nprint(areas[\"GrossInternalArea\"].dtype)\n#&gt; object\n\n\n\nareas[\"GrossInternalArea\"] = areas[\"GrossInternalArea\"].astype(int)\nprint(areas[\"GrossInternalArea\"].dtype)\n#&gt; int64"
+  },
+  {
+    "objectID": "examples.html#plot_great_tables_targets",
+    "href": "examples.html#plot_great_tables_targets",
+    "title": "Examples for Testing and Comprehension",
+    "section": "",
+    "text": "from netzero_metrics.calcs import (\n    get_area_and_target_summaries,\n)\nfrom netzero_metrics.tables import plot_great_tables_targets\nimport mdpd\n\ndf_all_building_targets = mdpd.from_md(\"\"\"\n|    | TargetName      | BuildingName   |   Target |\n|---:|:----------------|:---------------|---------:|\n|  0 | UK NZC Standard | Block A        | 137.3    |\n|  1 | ambitious!      | Block A        |  40.0701 |\n|  2 | UK NZC Standard | Block B        | 251.333  |\n|  3 | ambitious!      | Block B        |  65.3333 |\n\"\"\")\n\ndf_all_project_targets = mdpd.from_md(\"\"\"\n|    | TargetName      |   ProjectTarget |\n|---:|:----------------|----------------:|\n|  0 | UK NZC Standard |         165.526 |\n|  1 | ambitious!     |          43.837 |\n\"\"\")\n\nch = plot_great_tables_targets(df_all_building_targets, df_all_project_targets)\nprint(ch._tbl_data.to_pandas().to_markdown())\n\"\"\"\n|    | TargetName      |   Block A |   Block B |   Project |\n|---:|:----------------|----------:|----------:|----------:|\n|  0 | UK NZC Standard |  137.3    |  251.333  |   165.526 |\n|  1 | ambitious!      |   40.0701 |   65.3333 |    43.837 |\n\"\"\""
+  },
+  {
+    "objectID": "examples.html#plot_great_tables_area_summary",
+    "href": "examples.html#plot_great_tables_area_summary",
+    "title": "Examples for Testing and Comprehension",
+    "section": "",
+    "text": "import mdpd\nfrom netzero_metrics.tables import (\n    plot_great_tables_area_summary,\n)\n\narea = mdpd.from_md(\"\"\"\n|    | BuildingId   |   GrossInternalArea | BuildingType                          | ConstructionMethod   | BuildingName   |   TargetYear |\n|---:|:-------------|--------------------:|:--------------------------------------|:---------------------------|:---------------|-------------:|\n|  0 | BLDG-1       |                  50 | Office - General                      | newbuild                   | Block A        |         2025 |\n|  1 | BLDG-1       |                 300 | Commercial Resi - Student Residential | retrofit-in-one-go         | Block A        |         2025 |\n|  2 | BLDG-2       |                  50 | Hotel                                 | newbuild                   | Block B        |         2030 |\n|  3 | BLDG-1       |                  50 | Office - Trading Floors               | newbuild                   | Block A        |         2025 |\n|  4 | BLDG-1       |                   3 | Office - General                      | newbuild                   | Block A        |         2025 |\n|  5 | BLDG-2       |                 100 | Hotel                                 | retrofit-in-one-go         | Block B        |         2030 |\n|  6 | BLDG-1       |                 400 | Healthcare                            | retrofit-in-one-go         | Block A        |         2025 |\n\"\"\"\n)\narea[\"GrossInternalArea\"] = area[\"GrossInternalArea\"].astype(float)\nch = plot_great_tables_area_summary(\n    area,\n)\nprint(ch._tbl_data.to_pandas().to_markdown())\n\"\"\"\n|    | BuildingType                          | ConstructionMethod   |   Block A |   Block B |   Total |\n|---:|:--------------------------------------|:---------------------|----------:|----------:|--------:|\n|  0 | Commercial Resi - Student Residential | retrofit-in-one-go   |       300 |         0 |     300 |\n|  1 | Healthcare                            | retrofit-in-one-go   |       400 |         0 |     400 |\n|  2 | Hotel                                 | newbuild             |         0 |        50 |      50 |\n|  3 | Hotel                                 | retrofit-in-one-go   |         0 |       100 |     100 |\n|  4 | Office - General                      | newbuild             |        53 |         0 |      53 |\n|  5 | Office - Trading Floors               | newbuild             |        50 |         0 |      50 |\n|  6 | Total                                 |                      |       803 |       150 |     953 |\n\"\"\""
+  },
+  {
+    "objectID": "examples.html#plot_energy_consumption",
+    "href": "examples.html#plot_energy_consumption",
+    "title": "Examples for Testing and Comprehension",
+    "section": "",
+    "text": "import pandas as pd\nfrom IPython.display import display\nfrom netzero_metrics.plots import (\n    plot_energy_consumption,\n)\ndf = pd.DataFrame([\n    {\n       'FuelType': 'Electricity',\n       'EnergyConsumption': 100.0,\n       'ReportingPeriod': '2019/20',\n       'EnergyEndUse': 'Heating',\n       'EnergyEndUseTags': '[]',\n   },\n   {\n       'FuelType': 'Electricity',\n       'EnergyConsumption': 50.0,\n       'ReportingPeriod': '2019/20',\n       'EnergyEndUse': 'Cooling',\n       'EnergyEndUseTags': '[]',\n   },\n])\nplot = plot_energy_consumption(df)\ndisplay(plot)\nprint(plot)\n#&gt; alt.Chart(...)"
+  }
+]
