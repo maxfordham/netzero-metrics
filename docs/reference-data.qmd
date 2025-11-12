@@ -19,13 +19,15 @@ those measured in **Kwhr/m2(GIA)/yr**.
 - [⬇️ energy-use-intensity](data/energy-use-intensity.xlsx)
 - [⬇️ datapackage](data/energy-use-intensity.dp.zip)
 
+### Raw Data
+
 ```{python}
 #| column: page
 from netzero_metrics.tables import render_eui_uknzcb_targets_pivot 
 render_eui_uknzcb_targets_pivot()
 ```
 
-### UKNZCB Plot Energy Use Intensity Targets
+### Plot Targets
 
 Plot Showing UKNZCB Energy Use Intensity Targets by building type reducing over time to 2050.
 
@@ -34,6 +36,10 @@ from netzero_metrics.plots import plot_eui
 plot_eui()
 ```
 
+## Reference Colours for Energy End Use
 
-
+```{python}
+from netzero_metrics.tables import render_color_energy_end_use_table 
+render_color_energy_end_use_table()
+```
 

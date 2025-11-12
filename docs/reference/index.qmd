@@ -5,4 +5,4 @@
 | | |
 | --- | --- |
 | [calcs](calcs.qmd#netzero_metrics.calcs) | Calculations for Net Zero Energy Use Intensity targets. |
-| [models](models.qmd#netzero_metrics.models) |  |
+| [models](models.qmd#netzero_metrics.models) | pydantic data models for netzero-metrics package. |
