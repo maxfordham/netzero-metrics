@@ -227,15 +227,14 @@ def render_eui_uknzcb_targets_pivot_with_file_download(
     )
 
 
+def color_energy_end_use_column(cell):
+    return cell.value
 
 def render_color_energy_end_use_table() -> DataGrid:
     """Render the Color Energy End Use table as a DataGrid."""
 
     color_energy_end_use = nzdata.color_energy_end_use
     df_colors = pd.DataFrame(color_energy_end_use)
-
-    def color_energy_end_use_column(cell):
-        return str(cell.value)
 
     color_energy_end_use_formatting = TextRenderer(
         text_color="black",

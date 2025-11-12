@@ -1,8 +1,19 @@
 ---
-title: "Reference Data"
+title: Reference Data
 format:
   html:
     code-fold: true
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.18.1
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
 ---
 
 The `netzero_metrics` package relies on data collated by [UK Net Zero Carbon Building Standard Pilot Version (Sept 2024), TableOE-1 & TableOE-2](https://www.nzcbuildings.co.uk/pilotversion).
@@ -14,10 +25,10 @@ those measured in **Kwhr/m2(GIA)/yr**.
 
 ## UKNZCB Energy Use Intensity Targets
 
-**Downloads**:
+**Data**:
 
 - [⬇️ energy-use-intensity](data/energy-use-intensity.xlsx)
-- [⬇️ datapackage](data/energy-use-intensity.dp.zip)
+- [🔗 netzero-metrics-reference-data](https://github.com/maxfordham/netzero-metrics-reference-data/)
 
 ### Raw Data
 
@@ -39,7 +50,8 @@ plot_eui()
 ## Reference Colours for Energy End Use
 
 ```{python}
-from netzero_metrics.tables import render_color_energy_end_use_table 
+from netzero_metrics.tables import render_color_energy_end_use_table
+
 render_color_energy_end_use_table()
 ```
 
