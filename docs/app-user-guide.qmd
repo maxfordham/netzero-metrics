@@ -20,6 +20,18 @@ The information input into the app is summarised in the Project Summary page tha
 
 ![](images/select-project.png)
 
+## Project Summary
+
+![](images/project-summary-tab.png)
+
+The launch page of the app is a visual summary of the data input in the other tabs.
+
+![](images/project-summary.png){.lightbox}
+
+This summary can be downloaded as an output-ready pdf:
+
+![](images/project-summary-pdf.png){.lightbox}
+
 ## Add Project Buildings and Use Type Areas
 
 ![](images/project-building-areas-tab.png)

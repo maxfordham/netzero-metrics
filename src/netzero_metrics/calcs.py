@@ -135,18 +135,6 @@ def attach_target_year_to_area(
 ) -> AreaDataFrame:
     """Attach building `TargetYear` onto area.
 
-    ```{python}
-    # docs display
-    from netzero_metrics.calcs import attach_target_year_to_area, get_test_data
-    _area, _bldg, area, eui_custom = get_test_data()
-    import ipywidgets as w
-    from ipydatagrid import DataGrid
-    def grid(df): return DataGrid(df, auto_fit_columns=True, layout=w.Layout(height="200px"))
-
-    area = attach_target_year_to_area(_area, _bldg)
-    display(w.Tab([grid(_area), grid(_bldg), grid(area)], titles=["_area", "_bldg", "area"]))
-    ```
-
     ```python
     # noqa: D100
     # pytest-examples
