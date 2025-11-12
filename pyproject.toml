@@ -41,10 +41,12 @@ ruff = ">=0.14.3,<0.15"
 
 [tool.pixi.feature.tests.tasks]
 tests = "pytest"
-update-examples = "pytest --update-examples"
-docs = { cmd = "quarto render .", cwd = "docs" }
+update-examples = "pytest tests/test_examples.py --update-examples"
 quartodoc = {cmd = "quartodoc build", cwd = "docs"}
+docs-no-update = { cmd = "quarto render . ", cwd = "docs" }
+docs = { depends-on=["quartodoc", "docs-no-update"] }
 open-docs = {cmd="/mnt/c/windows/explorer.exe index.html", cwd="docs/_site"} # this will only work on WSL
+docs-open = { depends-on=["docs", "open-docs"] }
 
 [tool.pixi.dependencies]
 frictionless = ">=5.0.0,<6"
