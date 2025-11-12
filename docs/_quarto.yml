@@ -10,7 +10,7 @@ website:
       - app-user-guide.qmd
       - reference-data.qmd
       - demo-outputs.qmd
-      # - examples.md
+      # - examples.md # TODO: update this
       - models.qmd
       - text: "Calcs"
         href: reference/calcs.qmd

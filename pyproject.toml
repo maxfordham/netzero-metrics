@@ -38,7 +38,7 @@ xlsxwriter = ">=1.4.3,<2"
 jupyterlab = ">=4.0.0,<5"
 ruff = ">=0.14.3,<0.15"
 jupytext = ">=1.18.1,<2"
-jupyterlab-search-replace = ">=1.1.0,<2"
+jupyterlab-search-replace = "*"
 
 [tool.pixi.tasks]
 

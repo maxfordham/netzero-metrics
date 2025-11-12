@@ -3951,8 +3951,8 @@ packages:
   timestamp: 1733325673691
 - pypi: ./
   name: netzero-metrics
-  version: 0.1.dev11+g08b348b37.d20251112
-  sha256: abb940ebdf79c7188556b66ade06ee032cd838cfa370c186a0f95c476682f2c0
+  version: 0.1.dev12+g0817234ad.d20251112
+  sha256: 8a9d5a38dc27619fa8a1a7921379d038e6f7db6606f97bef1e193d76518aade3
   requires_python: '>=3.11'
   editable: true
 - pypi: https://files.pythonhosted.org/packages/83/2c/bdc82225c74f03cf0c94b4c5cf67dfba9c0e4135866448c5ca6071c24bcd/netzero_metrics_reference_data-0.3.0-py3-none-any.whl
