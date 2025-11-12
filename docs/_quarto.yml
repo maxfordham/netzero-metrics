@@ -22,7 +22,7 @@ website:
 
     right:
       - icon: github
-        href: https://github.com/maxfordham/digital-schedules/tree/main/packages/netzero-metrics
+        href: https://github.com/maxfordham/netzero-metrics
         aria-label: GitHub
 
 

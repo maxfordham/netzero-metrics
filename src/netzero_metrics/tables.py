@@ -14,10 +14,10 @@ import polars as pl
 from bqplot import ColorScale
 from great_tables import GT
 from ipyautoui.custom.filedownload import FileDownload
-from ipydatagrid import BarRenderer, DataGrid
+from ipydatagrid import DataGrid, TextRenderer, Expr, BarRenderer
 
 from netzero_metrics.calcs import get_eui_uknzcb_targets_pivot
-from netzero_metrics.constants import EUI_DATA
+from netzero_metrics.constants import EUI_DATA, nzdata
 
 if TYPE_CHECKING:
     from netzero_metrics.models import (
@@ -225,3 +225,24 @@ def render_eui_uknzcb_targets_pivot_with_file_download(
             tab_eui,
         ],
     )
+
+
+def color_energy_end_use_column(cell):
+    return cell.value
+
+def render_color_energy_end_use_table() -> DataGrid:
+    """Render the Color Energy End Use table as a DataGrid."""
+
+    color_energy_end_use = nzdata.color_energy_end_use
+    df_colors = pd.DataFrame(color_energy_end_use)
+
+    color_energy_end_use_formatting = TextRenderer(
+        text_color="black",
+        background_color=Expr(color_energy_end_use_column),
+    )
+
+    renderers = {
+        "Color": color_energy_end_use_formatting,
+    }
+
+    return DataGrid(df_colors, renderers=renderers, column_widths={"EnergyEndUse": 200})

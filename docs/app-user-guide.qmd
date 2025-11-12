@@ -31,7 +31,7 @@ By inputting how much area is assigned to what type of architectual / functional
 
 ## Add Custom Project Targets (if required)
 
-![](images/project-building-areas-tab.png)
+![](images/target-operational-energy-tab.png)
 
 The UKNZCB standard recommends targets based on the building types and areas in the project.
 On review of the project and client aspirations the project team may wish recommending a slightly different target.
@@ -40,6 +40,8 @@ These is plotted next to UKNZCB target to ensure that context is included.
 
 Use "Global Energy Target" if you wish to apply the same target to all Building Types in the project,
 or set custom targets for each building type.
+
+![](images/target-operational-energy.png){.lightbox}
 
 ## Predicted Operational Energy
 
@@ -59,6 +61,8 @@ To reiterate, if you are collecting the data from many sources you can input the
 rows as you like and it will automatically sum rows with the same "Energy End Use" and "Reporting Period".
 
 "Energy End Use Tags" should be generally ignored but exists in case you need to document secondary "Energy End Use" loads.
+
+![](images/in-use-operational-energy.png){.lightbox}
 
 
 

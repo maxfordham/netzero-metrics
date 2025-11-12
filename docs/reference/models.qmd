@@ -2,7 +2,7 @@
 
 `models`
 
-
+pydantic data models for netzero-metrics package.
 
 ## Classes
 
