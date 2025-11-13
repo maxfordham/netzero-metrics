@@ -2,7 +2,7 @@
 import altair as alt
 import pandas as pd
 from netzero_metrics.constants import nzdata
-from palettable.cartocolors.qualitative import Prism_10
+from palettable.cartocolors.qualitative import Prism_10 # TODO: use cmap or data from netzero-metrics-reference-data
 
 from netzero_metrics.constants import EUI_DATA, NZC_TARGET_NAME
 from netzero_metrics.models import (

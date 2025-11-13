@@ -13,7 +13,7 @@ import pandas as pd
 import polars as pl
 from bqplot import ColorScale
 from great_tables import GT
-from ipyautoui.custom.filedownload import FileDownload
+from ipyautoui.custom.filedownload import FileDownload # TODO: if this is the only reason for ipyautoui, consider replacing with custom code
 from ipydatagrid import DataGrid, TextRenderer, Expr, BarRenderer
 
 from netzero_metrics.calcs import get_eui_uknzcb_targets_pivot

@@ -29,6 +29,7 @@ df_all_building_targets = mdpd.from_md("""
 |  2 | UK NZC Standard | Block B        | 251.333  |
 |  3 | ambitious!     | Block B        |  65.3333 |
 """)
+df_all_building_targets["Target"] = df_all_building_targets.Target.astype(float)
 
 df_all_project_targets = mdpd.from_md("""
 |    | TargetName      |   ProjectTarget |
@@ -36,6 +37,7 @@ df_all_project_targets = mdpd.from_md("""
 |  0 | UK NZC Standard |         165.526 |
 |  1 | ambitious!     |          43.837 |
 """)
+df_all_project_targets["ProjectTarget"] = df_all_project_targets.ProjectTarget.astype(float)
 
 ch = plot_great_tables_targets(df_all_building_targets, df_all_project_targets)
 display(ch)
