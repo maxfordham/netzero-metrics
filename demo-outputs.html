@@ -199,7 +199,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div id="c0c26324" class="cell" data-execution_count="1">
+<div id="b4314c95" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> netzero_metrics.calcs <span class="im">import</span> get_area_and_target_summaries</span>
@@ -214,64 +214,69 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="st">|  2 | UK NZC Standard | Block B        | 251.333  |</span></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="st">|  3 | ambitious!     | Block B        |  65.3333 |</span></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="st">"""</span>)</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>df_all_project_targets <span class="op">=</span> mdpd.from_md(<span class="st">"""</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="st">|    | TargetName      |   ProjectTarget |</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="st">|---:|:----------------|----------------:|</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="st">|  0 | UK NZC Standard |         165.526 |</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="st">|  1 | ambitious!     |          43.837 |</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="st">"""</span>)</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>ch <span class="op">=</span> plot_great_tables_targets(df_all_building_targets, df_all_project_targets)</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>display(ch)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>df_all_building_targets[<span class="st">"Target"</span>] <span class="op">=</span> df_all_building_targets.Target.astype(<span class="bu">float</span>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>df_all_project_targets <span class="op">=</span> mdpd.from_md(<span class="st">"""</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="st">|    | TargetName      |   ProjectTarget |</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="st">|---:|:----------------|----------------:|</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="st">|  0 | UK NZC Standard |         165.526 |</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="st">|  1 | ambitious!     |          43.837 |</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="st">"""</span>)</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>df_all_project_targets[<span class="st">"ProjectTarget"</span>] <span class="op">=</span> df_all_project_targets.ProjectTarget.astype(<span class="bu">float</span>)</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>ch <span class="op">=</span> plot_great_tables_targets(df_all_building_targets, df_all_project_targets)</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>display(ch)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
-<div id="slmkoftrug" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="srzyrmnnqy" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>
-#slmkoftrug table {
+#srzyrmnnqy table {
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
         }
 
-#slmkoftrug thead, tbody, tfoot, tr, td, th { border-style: none; }
+#srzyrmnnqy thead, tbody, tfoot, tr, td, th { border-style: none; }
  tr { background-color: transparent; }
-#slmkoftrug p { margin: 0; padding: 0; }
- #slmkoftrug .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; }
- #slmkoftrug .gt_caption { padding-top: 4px; padding-bottom: 4px; }
- #slmkoftrug .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }
- #slmkoftrug .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }
- #slmkoftrug .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
- #slmkoftrug .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
- #slmkoftrug .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
- #slmkoftrug .gt_col_heading { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }
- #slmkoftrug .gt_column_spanner_outer { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }
- #slmkoftrug .gt_column_spanner_outer:first-child { padding-left: 0; }
- #slmkoftrug .gt_column_spanner_outer:last-child { padding-right: 0; }
- #slmkoftrug .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }
- #slmkoftrug .gt_spanner_row { border-bottom-style: hidden; }
- #slmkoftrug .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }
- #slmkoftrug .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: middle; }
- #slmkoftrug .gt_from_md> :first-child { margin-top: 0; }
- #slmkoftrug .gt_from_md> :last-child { margin-bottom: 0; }
- #slmkoftrug .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; }
- #slmkoftrug .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; }
- #slmkoftrug .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }
- #slmkoftrug .gt_row_group_first td { border-top-width: 2px; }
- #slmkoftrug .gt_row_group_first th { border-top-width: 2px; }
- #slmkoftrug .gt_striped { background-color: rgba(128,128,128,0.05); }
- #slmkoftrug .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
- #slmkoftrug .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }
- #slmkoftrug .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; text-align: left; }
- #slmkoftrug .gt_left { text-align: left; }
- #slmkoftrug .gt_center { text-align: center; }
- #slmkoftrug .gt_right { text-align: right; font-variant-numeric: tabular-nums; }
- #slmkoftrug .gt_font_normal { font-weight: normal; }
- #slmkoftrug .gt_font_bold { font-weight: bold; }
- #slmkoftrug .gt_font_italic { font-style: italic; }
- #slmkoftrug .gt_super { font-size: 65%; }
- #slmkoftrug .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }
- #slmkoftrug .gt_asterisk { font-size: 100%; vertical-align: 0; }
+#srzyrmnnqy p { margin: 0; padding: 0; }
+ #srzyrmnnqy .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; }
+ #srzyrmnnqy .gt_caption { padding-top: 4px; padding-bottom: 4px; }
+ #srzyrmnnqy .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }
+ #srzyrmnnqy .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }
+ #srzyrmnnqy .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #srzyrmnnqy .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #srzyrmnnqy .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #srzyrmnnqy .gt_col_heading { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }
+ #srzyrmnnqy .gt_column_spanner_outer { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }
+ #srzyrmnnqy .gt_column_spanner_outer:first-child { padding-left: 0; }
+ #srzyrmnnqy .gt_column_spanner_outer:last-child { padding-right: 0; }
+ #srzyrmnnqy .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }
+ #srzyrmnnqy .gt_spanner_row { border-bottom-style: hidden; }
+ #srzyrmnnqy .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }
+ #srzyrmnnqy .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: middle; }
+ #srzyrmnnqy .gt_from_md> :first-child { margin-top: 0; }
+ #srzyrmnnqy .gt_from_md> :last-child { margin-bottom: 0; }
+ #srzyrmnnqy .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; }
+ #srzyrmnnqy .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; }
+ #srzyrmnnqy .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }
+ #srzyrmnnqy .gt_row_group_first td { border-top-width: 2px; }
+ #srzyrmnnqy .gt_row_group_first th { border-top-width: 2px; }
+ #srzyrmnnqy .gt_striped { color: #333333; background-color: #F4F4F4; }
+ #srzyrmnnqy .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #srzyrmnnqy .gt_grand_summary_row { color: #333333; background-color: #FFFFFF; text-transform: inherit; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; }
+ #srzyrmnnqy .gt_first_grand_summary_row_bottom { border-top-style: double; border-top-width: 6px; border-top-color: #D3D3D3; }
+ #srzyrmnnqy .gt_last_grand_summary_row_top { border-bottom-style: double; border-bottom-width: 6px; border-bottom-color: #D3D3D3; }
+ #srzyrmnnqy .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }
+ #srzyrmnnqy .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; text-align: left; }
+ #srzyrmnnqy .gt_left { text-align: left; }
+ #srzyrmnnqy .gt_center { text-align: center; }
+ #srzyrmnnqy .gt_right { text-align: right; font-variant-numeric: tabular-nums; }
+ #srzyrmnnqy .gt_font_normal { font-weight: normal; }
+ #srzyrmnnqy .gt_font_bold { font-weight: bold; }
+ #srzyrmnnqy .gt_font_italic { font-style: italic; }
+ #srzyrmnnqy .gt_super { font-size: 65%; }
+ #srzyrmnnqy .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }
+ #srzyrmnnqy .gt_asterisk { font-size: 100%; vertical-align: 0; }
  
 </style>
 
@@ -284,27 +289,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <th colspan="4" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border">Summary of Project Building Targets</th>
 </tr>
 <tr class="gt_col_headings gt_spanner_row header">
-<th rowspan="2" id="Target Name" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Target Name</th>
-<th colspan="3" id="Target (kWh/m²/yr) " class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><span class="gt_column_spanner">Target (kWh/m²/yr) </span></th>
+<th rowspan="2" id="TargetName" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Target Name</th>
+<th colspan="3" id="Target-(kWh/m²/yr)-" class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><span class="gt_column_spanner">Target (kWh/m²/yr) </span></th>
 </tr>
 <tr class="gt_col_headings even">
-<th id="Block A" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Block A</th>
-<th id="Block B" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Block B</th>
-<th id="Project" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Project</th>
+<th id="Block-A" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Block A</th>
+<th id="Block-B" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Block B</th>
+<th id="Project" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Project</th>
 </tr>
 </thead>
 <tbody class="gt_table_body">
 <tr class="odd">
 <td class="gt_row gt_left" style="color: #000000; background-color: #FFFFFF">UK NZC Standard</td>
-<td class="gt_row gt_left" style="color: #000000; background-color: #FFFFFF">137.3</td>
-<td class="gt_row gt_left" style="color: #000000; background-color: #FFFFFF">251.333</td>
-<td class="gt_row gt_left" style="color: #000000; background-color: #FFFFFF">165.526</td>
+<td class="gt_row gt_right" style="color: #000000; background-color: #d2eaf1">137.3</td>
+<td class="gt_row gt_right" style="color: #000000; background-color: #add8e6">251.3</td>
+<td class="gt_row gt_right" style="color: #000000; background-color: #c9e5ef">165.5</td>
 </tr>
 <tr class="even">
 <td class="gt_row gt_left" style="color: #000000; background-color: #FFFFFF">ambitious!</td>
-<td class="gt_row gt_left" style="color: #000000; background-color: #FFFFFF">40.0701</td>
-<td class="gt_row gt_left" style="color: #000000; background-color: #d6ecf2">65.3333</td>
-<td class="gt_row gt_left" style="color: #000000; background-color: #FFFFFF">43.837</td>
+<td class="gt_row gt_right" style="color: #000000; background-color: #f2f9fb">40.1</td>
+<td class="gt_row gt_right" style="color: #000000; background-color: #eaf5f9">65.3</td>
+<td class="gt_row gt_right" style="color: #000000; background-color: #f1f8fb">43.8</td>
 </tr>
 </tbody>
 </table>
@@ -314,7 +319,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         
 </div>
 </div>
-<div id="348c7790" class="cell" data-execution_count="2">
+<div id="dd696371" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> mdpd</span>
@@ -340,52 +345,55 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>display(ch)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
-<div id="mjyrzvavrl" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="nqeoxhyuyt" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>
-#mjyrzvavrl table {
+#nqeoxhyuyt table {
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
         }
 
-#mjyrzvavrl thead, tbody, tfoot, tr, td, th { border-style: none; }
+#nqeoxhyuyt thead, tbody, tfoot, tr, td, th { border-style: none; }
  tr { background-color: transparent; }
-#mjyrzvavrl p { margin: 0; padding: 0; }
- #mjyrzvavrl .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; }
- #mjyrzvavrl .gt_caption { padding-top: 4px; padding-bottom: 4px; }
- #mjyrzvavrl .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }
- #mjyrzvavrl .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }
- #mjyrzvavrl .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
- #mjyrzvavrl .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
- #mjyrzvavrl .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
- #mjyrzvavrl .gt_col_heading { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }
- #mjyrzvavrl .gt_column_spanner_outer { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }
- #mjyrzvavrl .gt_column_spanner_outer:first-child { padding-left: 0; }
- #mjyrzvavrl .gt_column_spanner_outer:last-child { padding-right: 0; }
- #mjyrzvavrl .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }
- #mjyrzvavrl .gt_spanner_row { border-bottom-style: hidden; }
- #mjyrzvavrl .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }
- #mjyrzvavrl .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: middle; }
- #mjyrzvavrl .gt_from_md> :first-child { margin-top: 0; }
- #mjyrzvavrl .gt_from_md> :last-child { margin-bottom: 0; }
- #mjyrzvavrl .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; }
- #mjyrzvavrl .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; }
- #mjyrzvavrl .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }
- #mjyrzvavrl .gt_row_group_first td { border-top-width: 2px; }
- #mjyrzvavrl .gt_row_group_first th { border-top-width: 2px; }
- #mjyrzvavrl .gt_striped { background-color: rgba(128,128,128,0.05); }
- #mjyrzvavrl .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
- #mjyrzvavrl .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }
- #mjyrzvavrl .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; text-align: left; }
- #mjyrzvavrl .gt_left { text-align: left; }
- #mjyrzvavrl .gt_center { text-align: center; }
- #mjyrzvavrl .gt_right { text-align: right; font-variant-numeric: tabular-nums; }
- #mjyrzvavrl .gt_font_normal { font-weight: normal; }
- #mjyrzvavrl .gt_font_bold { font-weight: bold; }
- #mjyrzvavrl .gt_font_italic { font-style: italic; }
- #mjyrzvavrl .gt_super { font-size: 65%; }
- #mjyrzvavrl .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }
- #mjyrzvavrl .gt_asterisk { font-size: 100%; vertical-align: 0; }
+#nqeoxhyuyt p { margin: 0; padding: 0; }
+ #nqeoxhyuyt .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; }
+ #nqeoxhyuyt .gt_caption { padding-top: 4px; padding-bottom: 4px; }
+ #nqeoxhyuyt .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }
+ #nqeoxhyuyt .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }
+ #nqeoxhyuyt .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #nqeoxhyuyt .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #nqeoxhyuyt .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #nqeoxhyuyt .gt_col_heading { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }
+ #nqeoxhyuyt .gt_column_spanner_outer { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }
+ #nqeoxhyuyt .gt_column_spanner_outer:first-child { padding-left: 0; }
+ #nqeoxhyuyt .gt_column_spanner_outer:last-child { padding-right: 0; }
+ #nqeoxhyuyt .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }
+ #nqeoxhyuyt .gt_spanner_row { border-bottom-style: hidden; }
+ #nqeoxhyuyt .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }
+ #nqeoxhyuyt .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; vertical-align: middle; }
+ #nqeoxhyuyt .gt_from_md> :first-child { margin-top: 0; }
+ #nqeoxhyuyt .gt_from_md> :last-child { margin-bottom: 0; }
+ #nqeoxhyuyt .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; }
+ #nqeoxhyuyt .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; }
+ #nqeoxhyuyt .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }
+ #nqeoxhyuyt .gt_row_group_first td { border-top-width: 2px; }
+ #nqeoxhyuyt .gt_row_group_first th { border-top-width: 2px; }
+ #nqeoxhyuyt .gt_striped { color: #333333; background-color: #F4F4F4; }
+ #nqeoxhyuyt .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; }
+ #nqeoxhyuyt .gt_grand_summary_row { color: #333333; background-color: #FFFFFF; text-transform: inherit; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; }
+ #nqeoxhyuyt .gt_first_grand_summary_row_bottom { border-top-style: double; border-top-width: 6px; border-top-color: #D3D3D3; }
+ #nqeoxhyuyt .gt_last_grand_summary_row_top { border-bottom-style: double; border-bottom-width: 6px; border-bottom-color: #D3D3D3; }
+ #nqeoxhyuyt .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }
+ #nqeoxhyuyt .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; text-align: left; }
+ #nqeoxhyuyt .gt_left { text-align: left; }
+ #nqeoxhyuyt .gt_center { text-align: center; }
+ #nqeoxhyuyt .gt_right { text-align: right; font-variant-numeric: tabular-nums; }
+ #nqeoxhyuyt .gt_font_normal { font-weight: normal; }
+ #nqeoxhyuyt .gt_font_bold { font-weight: bold; }
+ #nqeoxhyuyt .gt_font_italic { font-style: italic; }
+ #nqeoxhyuyt .gt_super { font-size: 65%; }
+ #nqeoxhyuyt .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }
+ #nqeoxhyuyt .gt_asterisk { font-size: 100%; vertical-align: 0; }
  
 </style>
 
@@ -399,13 +407,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 <tr class="gt_col_headings gt_spanner_row header">
 <th colspan="2" id="Categorisation" class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><span class="gt_column_spanner">Categorisation</span></th>
-<th colspan="3" id="GIA (m²) " class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><span class="gt_column_spanner">GIA (m²) </span></th>
+<th colspan="3" id="GIA-(m²)-" class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><span class="gt_column_spanner">GIA (m²) </span></th>
 </tr>
 <tr class="gt_col_headings even">
-<th id="Building Type" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Building Type</th>
-<th id="Construction Method" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Construction Method</th>
-<th id="Block A" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Block A</th>
-<th id="Block B" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Block B</th>
+<th id="BuildingType" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Building Type</th>
+<th id="ConstructionMethod" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Construction Method</th>
+<th id="Block-A" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Block A</th>
+<th id="Block-B" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Block B</th>
 <th id="Total" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Total</th>
 </tr>
 </thead>
@@ -467,7 +475,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         
 </div>
 </div>
-<div id="4a119650" class="cell" data-execution_count="3">
+<div id="6e8ed3b7" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pathlib</span>
@@ -509,30 +517,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell-output cell-output-display" data-execution_count="3">
 
 <style>
-  #altair-viz-ca726c0019704980b73e12cf5f5e7c48.vega-embed {
+  #altair-viz-d4db84b0001e4769b9f63cd229f04845.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-ca726c0019704980b73e12cf5f5e7c48.vega-embed details,
-  #altair-viz-ca726c0019704980b73e12cf5f5e7c48.vega-embed details summary {
+  #altair-viz-d4db84b0001e4769b9f63cd229f04845.vega-embed details,
+  #altair-viz-d4db84b0001e4769b9f63cd229f04845.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-ca726c0019704980b73e12cf5f5e7c48"></div>
+<div id="altair-viz-d4db84b0001e4769b9f63cd229f04845"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-ca726c0019704980b73e12cf5f5e7c48") {
-      outputDiv = document.getElementById("altair-viz-ca726c0019704980b73e12cf5f5e7c48");
+    if (outputDiv.id !== "altair-viz-d4db84b0001e4769b9f63cd229f04845") {
+      outputDiv = document.getElementById("altair-viz-d4db84b0001e4769b9f63cd229f04845");
     }
 
     const paths = {
-      "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
+      "vega": "https://cdn.jsdelivr.net/npm/vega@6?noext",
       "vega-lib": "https://cdn.jsdelivr.net/npm/vega-lib?noext",
-      "vega-lite": "https://cdn.jsdelivr.net/npm/vega-lite@5.20.1?noext",
-      "vega-embed": "https://cdn.jsdelivr.net/npm/vega-embed@6?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm/vega-lite@6.1.0?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm/vega-embed@7?noext",
     };
 
     function maybeLoadScript(lib, version) {
@@ -567,17 +575,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       let deps = ["vega-embed"];
       require(deps, displayChart, err => showError(`Error loading script: ${err.message}`));
     } else {
-      maybeLoadScript("vega", "5")
-        .then(() => maybeLoadScript("vega-lite", "5.20.1"))
-        .then(() => maybeLoadScript("vega-embed", "6"))
+      maybeLoadScript("vega", "6")
+        .then(() => maybeLoadScript("vega-lite", "6.1.0"))
+        .then(() => maybeLoadScript("vega-embed", "7"))
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"data": {"name": "data-cc4dbc5992c9e734ff58e6bf5bf13093"}, "mark": {"type": "circle", "size": 60}, "encoding": {"color": {"field": "Year", "legend": {"format": ".0f"}, "scale": {"scheme": "redblue"}, "type": "quantitative"}, "x": {"field": "Target", "title": "Target (kWh/m\u00b2/yr)", "type": "quantitative"}, "y": {"field": "Name", "title": "Building Name", "type": "nominal"}}, "title": {"text": "Project Area-Weighted Energy Use Intensity Targets"}}, {"data": {"name": "data-68df79a965fde6a7a7038e1417eb541c"}, "mark": {"type": "tick", "opacity": 1, "thickness": 2, "tooltip": true}, "encoding": {"color": {"field": "TargetName", "legend": null, "scale": {"domain": ["UK NZC Standard", "ambitious!"], "range": ["#73AF48", "#5F4690", "#1D6996", "#38A6A5", "#0F8554", "#EDAD08", "#E17C05", "#CC503E", "#94346E", "#6F4070"]}, "title": "Target Name", "type": "nominal"}, "x": {"field": "Target", "type": "quantitative"}, "y": {"field": "Name", "title": "Building Name", "type": "nominal"}}}, {"data": {"name": "data-28467b4600c4b08fa22e10d4d913a128"}, "mark": {"type": "rule", "opacity": 1, "strokeWidth": 2, "tooltip": true}, "encoding": {"color": {"field": "TargetName", "scale": {"domain": ["UK NZC Standard", "ambitious!"], "range": ["#73AF48", "#5F4690", "#1D6996", "#38A6A5", "#0F8554", "#EDAD08", "#E17C05", "#CC503E", "#94346E", "#6F4070"]}, "title": "Target Name", "type": "nominal"}, "x": {"field": "ProjectTarget", "type": "quantitative"}}}], "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-cc4dbc5992c9e734ff58e6bf5bf13093": [{"Year": 2025, "Target": 111.3, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2026, "Target": 109.1, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2027, "Target": 106.6, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2028, "Target": 103.3, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2029, "Target": 100.9, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2030, "Target": 98.4, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2031, "Target": 95.2, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2032, "Target": 92.8, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2033, "Target": 90.4, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2034, "Target": 87.2, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2035, "Target": 84.8, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2036, "Target": 82.3, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2037, "Target": 79.1, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2038, "Target": 76.7, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2039, "Target": 74.2, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2040, "Target": 70.9, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2050, "Target": 70.9, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2025, "Target": 161.7, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2026, "Target": 158.0, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2027, "Target": 154.3, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2028, "Target": 150.7, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2029, "Target": 147.0, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2030, "Target": 143.3, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2031, "Target": 139.7, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2032, "Target": 136.0, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2033, "Target": 132.3, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2034, "Target": 128.7, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2035, "Target": 125.0, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2036, "Target": 121.3, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2037, "Target": 117.7, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2038, "Target": 114.0, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2039, "Target": 110.3, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2040, "Target": 106.7, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2050, "Target": 106.7, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}], "data-68df79a965fde6a7a7038e1417eb541c": [{"TargetName": "UK NZC Standard", "BuildingName": "Block A", "Target": 111.3, "Name": "Block A"}, {"TargetName": "ambitious!", "BuildingName": "Block A", "Target": 70.0, "Name": "Block A"}, {"TargetName": "UK NZC Standard", "BuildingName": "Block B", "Target": 143.3, "Name": "Block B"}, {"TargetName": "ambitious!", "BuildingName": "Block B", "Target": 70.0, "Name": "Block B"}], "data-28467b4600c4b08fa22e10d4d913a128": [{"TargetName": "UK NZC Standard", "ProjectTarget": 120.0}, {"TargetName": "ambitious!", "ProjectTarget": 70.0}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"data": {"name": "data-cc4dbc5992c9e734ff58e6bf5bf13093"}, "mark": {"type": "circle", "size": 60}, "encoding": {"color": {"field": "Year", "legend": {"format": ".0f"}, "scale": {"scheme": "redblue"}, "type": "quantitative"}, "x": {"field": "Target", "title": "Target (kWh/m\u00b2/yr)", "type": "quantitative"}, "y": {"field": "Name", "title": "Building Name", "type": "nominal"}}, "title": {"text": "Project Area-Weighted Energy Use Intensity Targets"}}, {"data": {"name": "data-68df79a965fde6a7a7038e1417eb541c"}, "mark": {"type": "tick", "opacity": 1, "thickness": 2, "tooltip": true}, "encoding": {"color": {"field": "TargetName", "legend": null, "scale": {"domain": ["UK NZC Standard", "ambitious!"], "range": ["#73AF48", "#5F4690", "#1D6996", "#38A6A5", "#0F8554", "#EDAD08", "#E17C05", "#CC503E", "#94346E", "#6F4070"]}, "title": "Target Name", "type": "nominal"}, "x": {"field": "Target", "type": "quantitative"}, "y": {"field": "Name", "title": "Building Name", "type": "nominal"}}}, {"data": {"name": "data-28467b4600c4b08fa22e10d4d913a128"}, "mark": {"type": "rule", "opacity": 1, "strokeWidth": 2, "tooltip": true}, "encoding": {"color": {"field": "TargetName", "scale": {"domain": ["UK NZC Standard", "ambitious!"], "range": ["#73AF48", "#5F4690", "#1D6996", "#38A6A5", "#0F8554", "#EDAD08", "#E17C05", "#CC503E", "#94346E", "#6F4070"]}, "title": "Target Name", "type": "nominal"}, "x": {"field": "ProjectTarget", "type": "quantitative"}}}], "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-cc4dbc5992c9e734ff58e6bf5bf13093": [{"Year": 2025, "Target": 111.3, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2026, "Target": 109.1, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2027, "Target": 106.6, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2028, "Target": 103.3, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2029, "Target": 100.9, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2030, "Target": 98.4, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2031, "Target": 95.2, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2032, "Target": 92.8, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2033, "Target": 90.4, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2034, "Target": 87.2, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2035, "Target": 84.8, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2036, "Target": 82.3, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2037, "Target": 79.1, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2038, "Target": 76.7, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2039, "Target": 74.2, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2040, "Target": 70.9, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2050, "Target": 70.9, "BuildingName": "Block A", "TargetName": "UK NZC Standard", "Name": "Block A"}, {"Year": 2025, "Target": 161.7, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2026, "Target": 158.0, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2027, "Target": 154.3, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2028, "Target": 150.7, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2029, "Target": 147.0, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2030, "Target": 143.3, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2031, "Target": 139.7, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2032, "Target": 136.0, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2033, "Target": 132.3, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2034, "Target": 128.7, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2035, "Target": 125.0, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2036, "Target": 121.3, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2037, "Target": 117.7, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2038, "Target": 114.0, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2039, "Target": 110.3, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2040, "Target": 106.7, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}, {"Year": 2050, "Target": 106.7, "BuildingName": "Block B", "TargetName": "UK NZC Standard", "Name": "Block B"}], "data-68df79a965fde6a7a7038e1417eb541c": [{"TargetName": "UK NZC Standard", "BuildingName": "Block A", "Target": 111.3, "Name": "Block A"}, {"TargetName": "ambitious!", "BuildingName": "Block A", "Target": 70.0, "Name": "Block A"}, {"TargetName": "UK NZC Standard", "BuildingName": "Block B", "Target": 143.3, "Name": "Block B"}, {"TargetName": "ambitious!", "BuildingName": "Block B", "Target": 70.0, "Name": "Block B"}], "data-28467b4600c4b08fa22e10d4d913a128": [{"TargetName": "UK NZC Standard", "ProjectTarget": 120.0}, {"TargetName": "ambitious!", "ProjectTarget": 70.0}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 </div>
-<div id="89278ebd" class="cell" data-execution_count="4">
+<div id="ad0bc200" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
@@ -607,30 +615,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell-output cell-output-display">
 
 <style>
-  #altair-viz-de84dd02381c4b979245da9365015a6f.vega-embed {
+  #altair-viz-cfdda006809641d38708d5c089abc6d9.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-de84dd02381c4b979245da9365015a6f.vega-embed details,
-  #altair-viz-de84dd02381c4b979245da9365015a6f.vega-embed details summary {
+  #altair-viz-cfdda006809641d38708d5c089abc6d9.vega-embed details,
+  #altair-viz-cfdda006809641d38708d5c089abc6d9.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-de84dd02381c4b979245da9365015a6f"></div>
+<div id="altair-viz-cfdda006809641d38708d5c089abc6d9"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-de84dd02381c4b979245da9365015a6f") {
-      outputDiv = document.getElementById("altair-viz-de84dd02381c4b979245da9365015a6f");
+    if (outputDiv.id !== "altair-viz-cfdda006809641d38708d5c089abc6d9") {
+      outputDiv = document.getElementById("altair-viz-cfdda006809641d38708d5c089abc6d9");
     }
 
     const paths = {
-      "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
+      "vega": "https://cdn.jsdelivr.net/npm/vega@6?noext",
       "vega-lib": "https://cdn.jsdelivr.net/npm/vega-lib?noext",
-      "vega-lite": "https://cdn.jsdelivr.net/npm/vega-lite@5.20.1?noext",
-      "vega-embed": "https://cdn.jsdelivr.net/npm/vega-embed@6?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm/vega-lite@6.1.0?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm/vega-embed@7?noext",
     };
 
     function maybeLoadScript(lib, version) {
@@ -665,13 +673,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       let deps = ["vega-embed"];
       require(deps, displayChart, err => showError(`Error loading script: ${err.message}`));
     } else {
-      maybeLoadScript("vega", "5")
-        .then(() => maybeLoadScript("vega-lite", "5.20.1"))
-        .then(() => maybeLoadScript("vega-embed", "6"))
+      maybeLoadScript("vega", "6")
+        .then(() => maybeLoadScript("vega-lite", "6.1.0"))
+        .then(() => maybeLoadScript("vega-embed", "7"))
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-b900729d86adf1b886722a64af171bb0"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "EnergyEndUse", "legend": {"direction": "vertical", "orient": "top", "title": null}, "scale": {"domain": ["Heating", "Cooling"], "range": ["#c22324", "#1f77b4"]}, "type": "nominal"}, "x": {"field": "ReportingPeriod", "title": null, "type": "nominal"}, "y": {"aggregate": "sum", "field": "EnergyConsumption", "title": "Total Energy Consumption (kWhr/m2/yr)", "type": "quantitative"}}, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-b900729d86adf1b886722a64af171bb0": [{"FuelType": "Electricity", "EnergyConsumption": 100.0, "ReportingPeriod": "2019/20", "EnergyEndUse": "Heating", "EnergyEndUseTags": "[]"}, {"FuelType": "Electricity", "EnergyConsumption": 50.0, "ReportingPeriod": "2019/20", "EnergyEndUse": "Cooling", "EnergyEndUseTags": "[]"}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-b900729d86adf1b886722a64af171bb0"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "EnergyEndUse", "legend": {"direction": "vertical", "orient": "top", "title": null}, "scale": {"domain": ["Heating", "Cooling"], "range": ["#c22324", "#1f77b4"]}, "type": "nominal"}, "x": {"field": "ReportingPeriod", "title": null, "type": "nominal"}, "y": {"aggregate": "sum", "field": "EnergyConsumption", "title": "Total Energy Consumption (kWhr/m2/yr)", "type": "quantitative"}}, "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-b900729d86adf1b886722a64af171bb0": [{"FuelType": "Electricity", "EnergyConsumption": 100.0, "ReportingPeriod": "2019/20", "EnergyEndUse": "Heating", "EnergyEndUseTags": "[]"}, {"FuelType": "Electricity", "EnergyConsumption": 50.0, "ReportingPeriod": "2019/20", "EnergyEndUse": "Cooling", "EnergyEndUseTags": "[]"}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 </div>
